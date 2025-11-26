@@ -178,10 +178,10 @@
         /* Section Header Backgrounds */
         .section-header {
             position: relative;
-            padding: 2rem;
-            border-radius: 24px;
+            padding: 1.5rem;
+            border-radius: 20px;
             overflow: hidden;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
         }
 
         .section-header::before {
@@ -522,7 +522,7 @@
     </header>
 
     <!-- Vision & Mission Section -->
-    <section id="vision" class="py-32 relative z-10">
+    <section id="vision" class="py-16 relative z-10">
         <div class="container mx-auto px-4 gsap-reveal">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Vision -->
@@ -569,7 +569,7 @@
     </section>
 
     <!-- Initiatives Sequential Sections -->
-    <section id="initiatives" class="py-32 relative z-10">
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12" id="initiatives">
         <div class="container mx-auto px-4">
             <div class="mb-16 text-center">
                 <h2 class="text-4xl md:text-5xl font-bold font-heading text-white mb-4">المبادرات <span
@@ -584,9 +584,9 @@
                         class="absolute top-0 right-0 w-96 h-96 bg-green-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
                     </div>
 
-                    <div class="p-8 md:p-12">
+                    <div class="p-6 md:p-8">
                         <div
-                            class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8">
+                            class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-emerald-50/80 p-6 rounded-2xl">
                             <div class="flex items-start gap-6">
                                 <div class="w-24 h-24 shrink-0 relative">
                                     <div class="absolute inset-0 bg-green-500/20 blur-xl rounded-full"></div>
@@ -594,18 +594,18 @@
                                         class="relative z-10 w-full h-full object-contain drop-shadow-lg">
                                 </div>
                                 <div>
-                                    <h3 class="text-3xl md:text-4xl font-bold font-heading text-slate-800 mb-2">أنا
+                                    <h3 class="text-3xl md:text-4xl font-bold font-heading text-emerald-800 mb-2">أنا
                                         متطوع
                                     </h3>
                                     <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">برنامج "أصدقاء الأرض" و
-                                        "أصدقاء البيئة والمجتمع" لترسيخ مفهوم التطوع وربطه بالبيئة.</p>
+                                        "أصدقاء البيئة والمجتمع"</p>
                                 </div>
                             </div>
                             <div class="flex gap-2 shrink-0">
                                 <span
-                                    class="px-4 py-2 rounded-full bg-green-100 text-green-700 border border-green-200 text-sm font-bold">بيئي</span>
+                                    class="px-4 py-2 rounded-full bg-white text-emerald-700 border border-emerald-200 text-sm font-bold shadow-sm">تطوعي</span>
                                 <span
-                                    class="px-4 py-2 rounded-full bg-green-100 text-green-700 border border-green-200 text-sm font-bold">تطوعي</span>
+                                    class="px-4 py-2 rounded-full bg-white text-emerald-700 border border-emerald-200 text-sm font-bold shadow-sm">بيئي</span>
                             </div>
                         </div>
 
@@ -717,728 +717,1685 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- Report 2: Friends of Environment -->
-                            <div
-                                class="bg-white/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/50 relative overflow-hidden shadow-sm">
-                                <div
-                                    class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500">
-                                </div>
-
-                                <!-- Header -->
-                                <div
-                                    class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
-                                    <div>
-                                        <h4 class="text-2xl font-bold text-blue-600 mb-1">تقرير أصدقاء البيئة والمجتمع
-                                        </h4>
-                                        <p class="text-slate-500 text-sm">مبادرة لتعزيز التكافل والمسؤولية المجتمعية</p>
-                                    </div>
-                                    <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-500">
-                                        <span class="px-3 py-1 rounded bg-slate-100 border border-slate-200">1/4 -
-                                            5/5/1447</span>
-                                        <span class="px-3 py-1 rounded bg-slate-100 border border-slate-200">المنفذ: ندى
-                                            هاشم</span>
-                                    </div>
-                                </div>
-
-                                <!-- Objectives Grid -->
-                                <div class="liquid-glass-card p-6 mb-8"
-                                    style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.15) 0%, rgba(14, 165, 233, 0.1) 100%); border-color: rgba(6, 182, 212, 0.3);">
-                                    <h5 class="text-cyan-800 font-bold mb-4 flex items-center gap-2 text-lg">
-                                        <i class="ph-duotone ph-target text-2xl"></i> الأهداف
-                                    </h5>
-                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        <div
-                                            class="bg-slate-50 p-4 rounded-xl border border-slate-200 hover:border-blue-500/30 transition-colors">
-                                            <p class="text-slate-600 text-sm leading-relaxed">ترسيخ قيمة التطوع كمنهج
-                                                حياة وربط خدمة المجتمع بالبيئة.</p>
-                                        </div>
-                                        <div
-                                            class="bg-slate-50 p-4 rounded-xl border border-slate-200 hover:border-blue-500/30 transition-colors">
-                                            <p class="text-slate-600 text-sm leading-relaxed">تنمية وعي الطلاب بأهمية
-                                                السرية في العطاء والإخلاص.</p>
-                                        </div>
-                                        <div
-                                            class="bg-slate-50 p-4 rounded-xl border border-slate-200 hover:border-blue-500/30 transition-colors">
-                                            <p class="text-slate-600 text-sm leading-relaxed">إشراك أولياء الأمور وتعزيز
-                                                الانتماء للوطن عبر المناسبات.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Timeline (Axes) -->
-                                <div class="liquid-glass-card p-6"
-                                    style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.15) 0%, rgba(14, 165, 233, 0.1) 100%); border-color: rgba(6, 182, 212, 0.3);">
-                                    <h5 class="text-cyan-800 font-bold mb-6 flex items-center gap-2 text-lg">
-                                        <i class="ph-duotone ph-steps text-2xl"></i> مراحل التنفيذ
-                                    </h5>
-                                    <div class="relative border-r-2 border-cyan-500/30 mr-3 space-y-8 pr-8">
-                                        <!-- Step 1 -->
-                                        <div class="relative">
-                                            <span
-                                                class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500 border-4 border-white"></span>
-                                            <h6 class="text-blue-700 font-bold mb-2">المحور الأول: التهيئة والانطلاق
-                                            </h6>
-                                            <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
-                                                <li>صياغة الخطة التنفيذية وتجهيز العرض المرئي.</li>
-                                                <li>اجتماع مع الإرشاد لتحديد المستفيدين (سرية تامة).</li>
-                                                <li>حصر طلاب "مبادرة الفطور" للدعم الأسبوعي.</li>
-                                                <li>حصر نواقص النظافة لمساهمات أولياء الأمور.</li>
-                                                <li>مبادرة "سلة الشكر" الرمزية للإدارة.</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Step 2 -->
-                                        <div class="relative">
-                                            <span
-                                                class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500/50 border-4 border-white"></span>
-                                            <h6 class="text-blue-700 font-bold mb-2">المحور الثاني: التأسيس المعرفي</h6>
-                                            <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
-                                                <li>تقديم المحتوى الشرعي (آيات وأحاديث) عن التعاون.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Follow-up Card -->
-                            <div
-                                class="bg-white/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/50 relative overflow-hidden shadow-sm">
-                                <div
-                                    class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-orange-500">
-                                </div>
-                                <h4 class="text-2xl font-bold text-yellow-600 mb-8">بطاقة المتابعة والتقييم</h4>
-
-                                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                    <!-- Positives -->
-                                    <div class="bg-green-50 p-6 rounded-xl border border-green-200">
-                                        <h5 class="text-green-700 font-bold mb-4 flex items-center gap-2">
-                                            <i class="ph-duotone ph-thumbs-up text-2xl"></i>
-                                            الإيجابيات
-                                        </h5>
-                                        <ul class="text-sm text-slate-600 space-y-3">
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> نشر الوعي
-                                                البيئي وتقليل التلوث.</li>
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> ترشيد استهلاك
-                                                الموارد الطبيعية.</li>
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> تعزيز المسؤولية
-                                                الاجتماعية والتعاون.</li>
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> تنمية الحس
-                                                الوطني والمشاركة التطوعية.</li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Obstacles -->
-                                    <div class="bg-red-50 p-6 rounded-xl border border-red-200">
-                                        <h5 class="text-red-700 font-bold mb-4 flex items-center gap-2">
-                                            <i class="ph-duotone ph-warning-circle text-2xl"></i>
-                                            المعوقات
-                                        </h5>
-                                        <ul class="text-sm text-slate-600 space-y-3">
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> ضعف الوعي البيئي
-                                                لدى البعض.</li>
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> نقص الدعم المادي
-                                                للمشاريع.</li>
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> ضعف استمرارية
-                                                المبادرات.</li>
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> قلة التحفيز
-                                                الرسمي للمتطوعين.</li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Suggestions -->
-                                    <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                                        <h5 class="text-blue-700 font-bold mb-4 flex items-center gap-2">
-                                            <i class="ph-duotone ph-lightbulb text-2xl"></i>
-                                            المقترحات التطويرية
-                                        </h5>
-                                        <ul class="text-sm text-slate-600 space-y-3">
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> تفعيل حملات
-                                                توعوية منتظمة.</li>
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> عقد شراكات للدعم
-                                                المادي.</li>
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> تنظيم دورات
-                                                تدريبية للأعضاء.</li>
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> تنفيذ مشاريع
-                                                ميدانية (تشجير، تنظيف).</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Initiative 2 -->
-                <!-- Initiative 2: Full Content (Embedded) -->
-                <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
-                    <div
-                        class="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
-                    </div>
-
-                    <div class="p-8 md:p-12">
-                        <!-- Header -->
+                    <!-- Final Report Section (New) -->
+                    <div class="liquid-glass-card p-8 mt-12 relative overflow-hidden group">
                         <div
-                            class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8">
-                            <div class="flex items-start gap-6">
-                                <div class="w-24 h-24 shrink-0 relative">
-                                    <div class="absolute inset-0 bg-blue-500/20 blur-xl rounded-full"></div>
-                                    <img src="assets/images/environment-3d.png" alt="Education"
-                                        class="relative z-10 w-full h-full object-contain drop-shadow-lg">
-                                </div>
-                                <div>
-                                    <h3 class="text-3xl md:text-4xl font-bold font-heading text-slate-800 mb-2">معاً نحو
-                                        التفوق
-                                    </h3>
-                                    <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">مبادرة تعليمية علاجية
-                                        تهدف
-                                        لرفع مستوى التحصيل الدراسي وعلاج التأخر في المهارات الأساسية.</p>
-                                </div>
+                            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-600">
+                        </div>
+
+                        <!-- Header -->
+                        <div class="text-center mb-12 relative z-10">
+                            <div
+                                class="inline-block p-3 rounded-2xl bg-emerald-100/50 border border-emerald-200 mb-4 shadow-lg transform hover:scale-110 transition-transform duration-300">
+                                <i class="ph-duotone ph-file-text text-4xl text-emerald-600"></i>
                             </div>
-                            <div class="flex gap-2 shrink-0">
-                                <span
-                                    class="px-4 py-2 rounded-full bg-blue-100 text-blue-700 border border-blue-200 text-sm font-bold">تعليمي</span>
-                                <span
-                                    class="px-4 py-2 rounded-full bg-blue-100 text-blue-700 border border-blue-200 text-sm font-bold">علاجي</span>
-                            </div>
+                            <h3 class="text-3xl font-bold text-slate-800 mb-2">التقرير الختامي للبرنامج</h3>
+                            <p class="text-slate-600">برنامج أصدقاء الأرض ضمن مبادرة التطوع المدرسي</p>
                         </div>
 
                         <!-- Info Grid -->
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">المجال</div>
-                                <div class="text-slate-800 font-bold">التحصيل الدراسي</div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+                            <div
+                                class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center hover:shadow-md transition-all group/item">
+                                <div
+                                    class="w-10 h-10 mx-auto bg-emerald-100 rounded-full flex items-center justify-center mb-3 group-hover/item:scale-110 transition-transform">
+                                    <i class="ph-duotone ph-map-pin text-xl text-emerald-600"></i>
+                                </div>
+                                <div class="text-xs text-slate-500 mb-1">المقر</div>
+                                <div class="font-bold text-slate-800 text-sm">ابتدائية خزيمة بن ثابت</div>
+                                <div class="text-xs text-slate-500 mt-1">معمل التربية الفنية</div>
                             </div>
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">تاريخ التنفيذ</div>
-                                <div class="text-slate-800 font-bold">1447/3/20 - 4/30</div>
+                            <div
+                                class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center hover:shadow-md transition-all group/item">
+                                <div
+                                    class="w-10 h-10 mx-auto bg-emerald-100 rounded-full flex items-center justify-center mb-3 group-hover/item:scale-110 transition-transform">
+                                    <i class="ph-duotone ph-calendar text-xl text-emerald-600"></i>
+                                </div>
+                                <div class="text-xs text-slate-500 mb-1">زمن التنفيذ</div>
+                                <div class="font-bold text-slate-800 text-sm">15/3 - 28/3/1447هـ</div>
                             </div>
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">المسؤولة</div>
-                                <div class="text-slate-800 font-bold">فيحاء البقمي</div>
+                            <div
+                                class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center hover:shadow-md transition-all group/item">
+                                <div
+                                    class="w-10 h-10 mx-auto bg-emerald-100 rounded-full flex items-center justify-center mb-3 group-hover/item:scale-110 transition-transform">
+                                    <i class="ph-duotone ph-users text-xl text-emerald-600"></i>
+                                </div>
+                                <div class="text-xs text-slate-500 mb-1">الفئة المستهدفة</div>
+                                <div class="font-bold text-slate-800 text-sm">الصف الثالث</div>
                             </div>
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">المستفيدين</div>
-                                <div class="text-slate-800 font-bold">50+ طالبة</div>
+                            <div
+                                class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center hover:shadow-md transition-all group/item">
+                                <div
+                                    class="w-10 h-10 mx-auto bg-emerald-100 rounded-full flex items-center justify-center mb-3 group-hover/item:scale-110 transition-transform">
+                                    <i class="ph-duotone ph-user-circle text-xl text-emerald-600"></i>
+                                </div>
+                                <div class="text-xs text-slate-500 mb-1">المنفذ</div>
+                                <div class="font-bold text-slate-800 text-sm">ندى هاشم / تهاني الأنديجاني</div>
                             </div>
                         </div>
 
-                        <!-- Detailed Content -->
-                        <div class="space-y-8">
+                        <!-- Objectives -->
+                        <div class="mb-10">
+                            <h4 class="text-xl font-bold text-emerald-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-target text-2xl"></i> أهداف البرنامج
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div
+                                    class="flex items-start gap-3 bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                                    <i class="ph-duotone ph-check-circle text-emerald-600 text-xl mt-0.5"></i>
+                                    <span class="text-slate-700 text-sm">ترسيخ مفهوم التطوع كقيمة تربوية وسلوك حياتي لدى
+                                        الطلاب.</span>
+                                </div>
+                                <div
+                                    class="flex items-start gap-3 bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                                    <i class="ph-duotone ph-check-circle text-emerald-600 text-xl mt-0.5"></i>
+                                    <span class="text-slate-700 text-sm">ربط التطوع بالبيئة من خلال ممارسات عملية تعزز
+                                        المحافظة على الموارد.</span>
+                                </div>
+                                <div
+                                    class="flex items-start gap-3 bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                                    <i class="ph-duotone ph-check-circle text-emerald-600 text-xl mt-0.5"></i>
+                                    <span class="text-slate-700 text-sm">تنمية الإبداع والابتكار عبر إعادة التدوير
+                                        وصناعة منتجات نافعة.</span>
+                                </div>
+                                <div
+                                    class="flex items-start gap-3 bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                                    <i class="ph-duotone ph-check-circle text-emerald-600 text-xl mt-0.5"></i>
+                                    <span class="text-slate-700 text-sm">إشراك أولياء الأمور كشركاء فاعلين في دعم القيم
+                                        التطوعية.</span>
+                                </div>
+                                <div
+                                    class="flex items-start gap-3 bg-emerald-50/50 p-4 rounded-xl border border-emerald-100 md:col-span-2">
+                                    <i class="ph-duotone ph-check-circle text-emerald-600 text-xl mt-0.5"></i>
+                                    <span class="text-slate-700 text-sm">تعزيز الانتماء المدرسي عبر عمل جماعي يترك أثراً
+                                        ملموساً داخل المدرسة.</span>
+                                </div>
+                            </div>
+                        </div>
 
-                            <!-- Objectives & Phases -->
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                <!-- Objectives -->
-                                <div class="liquid-glass-card liquid-glass-blue p-6 rounded-2xl">
-                                    <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
-                                        <i class="ph-duotone ph-target text-2xl"></i> الأهداف التفصيلية
-                                    </h4>
-                                    <ul class="space-y-4">
-                                        <li class="flex gap-3 items-start">
-                                            <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
-                                            <span class="text-slate-600 text-sm leading-relaxed">رفع مستوى التحصيل
-                                                الدراسي في مادتي الرياضيات ولغتي وتطوير المهارات الأساسية.</span>
-                                        </li>
-                                        <li class="flex gap-3 items-start">
-                                            <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
-                                            <span class="text-slate-600 text-sm leading-relaxed">تحسين مستوى الطلاب
-                                                المتأخرين دراسياً من خلال خطط دعم فردية وموجهة.</span>
-                                        </li>
-                                        <li class="flex gap-3 items-start">
-                                            <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
-                                            <span class="text-slate-600 text-sm leading-relaxed">توفير بيئة تعليمية
-                                                داعمة
-                                                تراعي الفروق الفردية وتبني المهارات الأساسية.</span>
-                                        </li>
-                                        <li class="flex gap-3 items-start">
-                                            <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
-                                            <span class="text-slate-600 text-sm leading-relaxed">تعزيز ثقة الطلاب في
-                                                أنفسهم في التعامل مع المسائل الرياضية.</span>
-                                        </li>
+                        <!-- Axes Timeline -->
+                        <div class="mb-12">
+                            <h4 class="text-xl font-bold text-emerald-800 mb-8 flex items-center gap-2">
+                                <i class="ph-duotone ph-list-checks text-2xl"></i> محاور البرنامج
+                            </h4>
+                            <div class="relative border-r-2 border-emerald-200 mr-4 space-y-8 pr-8">
+                                <!-- Axis 1 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">1. انطلاق البرنامج</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>تم التعريف بفكرة التطوع وأهداف البرنامج للطلاب بلغة مبسطة ومشوقة.</li>
+                                        <li>عرض مرئي يوضح الفرق بين السلوكيات السلبية والإيجابية تجاه البيئة.</li>
                                     </ul>
                                 </div>
+                                <!-- Axis 2 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">2. التأسيس النظري</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>إدارة حوار صفي مع الطلاب حول معنى التطوع وأثره في حياتهم.</li>
+                                        <li>تعزيز مشاركات الطلاب وأفكارهم الذاتية.</li>
+                                        <li>حث أولياء الأمور عبر مجموعة الواتساب على دعم أبنائهم.</li>
+                                    </ul>
+                                </div>
+                                <!-- Axis 3 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">3. التطبيق العملي الأول
+                                        (التدوير)</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>تنفيذ نشاط إعادة التدوير وصناعة المراكن باستخدام خامات متوفرة.</li>
+                                        <li>تزيين المراكن بالألوان وإبراز الجانب الفني والإبداعي.</li>
+                                        <li>مشاركة بعض أولياء الأمور في توفير الخامات ومتابعة العمل.</li>
+                                    </ul>
+                                </div>
+                                <!-- Axis 4 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">4. التطبيق العملي الثاني
+                                        (الزراعة)</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>زراعة شتلات صغيرة في المراكن.</li>
+                                        <li>شرح خطوات العناية بالنباتات وأهمية الاستمرارية.</li>
+                                        <li>تسليم المراكن المنجزة إلى معمل التربية الفنية.</li>
+                                    </ul>
+                                </div>
+                                <!-- Axis 5 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">5. التوثيق والعرض</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>توثيق الأعمال بالتصوير بعد أخذ موافقات رسمية.</li>
+                                        <li>مشاركة الصور عبر مجموعة الواتساب الخاصة بالبرنامج.</li>
+                                        <li>تجهيز ركن بيئي داخل المدرسة لعرض إنتاج الطلاب.</li>
+                                    </ul>
+                                </div>
+                                <!-- Axis 6 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">6. التفاعل والمشاركة</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>تفاعل كبير من الأمهات وتقديم عبارات شكر وتشجيع.</li>
+                                        <li>طلبات إضافية من بعض الأمهات لإشراك أبنائهن.</li>
+                                        <li>عرض إحدى الأمهات تقديم مبادرة مجتمعية للمرحلة القادمة.</li>
+                                    </ul>
+                                </div>
+                                <!-- Axis 7 -->
+                                <div class="relative group">
+                                    <span
+                                        class="absolute -right-[41px] top-0 w-6 h-6 rounded-full bg-emerald-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></span>
+                                    <h5 class="font-bold text-emerald-700 text-lg mb-2">7. التقييم والنتائج</h5>
+                                    <ul
+                                        class="list-disc list-inside text-slate-600 text-sm space-y-1 marker:text-emerald-400">
+                                        <li>مشاركة جميع الطلاب المستهدفين بنسبة 100%.</li>
+                                        <li>ارتفاع الوعي البيئي لديهم واعتزازهم بأعمالهم.</li>
+                                        <li>تعزيز الشراكة مع أولياء الأمور وفتح باب للمبادرات المجتمعية.</li>
+                                        <li>استحسان كبير من إدارة المدرسة والمعلمين.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
-                                <!-- Execution Phases -->
-                                <div class="liquid-glass-card liquid-glass-blue p-6 rounded-2xl">
-                                    <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
-                                        <i class="ph-duotone ph-steps text-2xl"></i> مراحل التنفيذ
-                                    </h4>
-                                    <div class="relative border-r-2 border-blue-500/30 mr-3 space-y-8 pr-8">
-                                        <div class="relative">
-                                            <span
-                                                class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500 border-4 border-white"></span>
-                                            <h6 class="text-blue-700 font-bold mb-1">المرحلة الأولى: الإعداد والتخطيط
-                                            </h6>
-                                            <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
-                                                <li>حصر الطلاب المتأخرين دراسياً.</li>
-                                                <li>إجراء اختبارات تشخيصية لتحديد نقاط الضعف.</li>
-                                                <li>إعداد خطة علاجية فردية لكل طالب.</li>
-                                            </ul>
+                        <!-- Evidence & Recommendations Grid -->
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+                            <!-- Performance Evidence -->
+                            <div class="bg-white/50 rounded-2xl p-6 border border-white/60">
+                                <h4 class="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-chart-bar text-2xl text-emerald-600"></i> شواهد الأداء
+                                </h4>
+                                <div class="space-y-4">
+                                    <div class="flex gap-3 items-start">
+                                        <div
+                                            class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 text-emerald-600 font-bold text-sm">
+                                            1</div>
+                                        <div>
+                                            <h6 class="font-bold text-slate-700 text-sm">الاستبانة القبلية والبعدية</h6>
+                                            <p class="text-xs text-slate-500 mt-1">قياس مستوى الوعي، وقياس الأثر الذي
+                                                أحدثه البرنامج.</p>
                                         </div>
-                                        <div class="relative">
-                                            <span
-                                                class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500/50 border-4 border-white"></span>
-                                            <h6 class="text-blue-700 font-bold mb-1">المرحلة الثانية: التنفيذ والمتابعة
+                                    </div>
+                                    <div class="flex gap-3 items-start">
+                                        <div
+                                            class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 text-emerald-600 font-bold text-sm">
+                                            2</div>
+                                        <div>
+                                            <h6 class="font-bold text-slate-700 text-sm">منهجية العمل</h6>
+                                            <p class="text-xs text-slate-500 mt-1">خطة عمل مفصلة امتدت على أسبوعين بواقع
+                                                أربع حصص نشاط.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-3 items-start">
+                                        <div
+                                            class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 text-emerald-600 font-bold text-sm">
+                                            3</div>
+                                        <div>
+                                            <h6 class="font-bold text-slate-700 text-sm">العرض التقديمي</h6>
+                                            <p class="text-xs text-slate-500 mt-1">إعداد عرض مرئي بعنوان "أصدقاء الأرض"
+                                                يحتوي على تعريف التطوع وقصص مصورة.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-3 items-start">
+                                        <div
+                                            class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 text-emerald-600 font-bold text-sm">
+                                            4</div>
+                                        <div>
+                                            <h6 class="font-bold text-slate-700 text-sm">التواصل مع أولياء الأمور</h6>
+                                            <p class="text-xs text-slate-500 mt-1">إنشاء مجموعة واتساب، مشاركة التعليمات
+                                                والصور، وأخذ الموافقات.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-3 items-start">
+                                        <div
+                                            class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 text-emerald-600 font-bold text-sm">
+                                            5</div>
+                                        <div>
+                                            <h6 class="font-bold text-slate-700 text-sm">أعمال الطلاب والركن الختامي
                                             </h6>
-                                            <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
-                                                <li>تحديد المهارات الأساسية المتأخرة.</li>
-                                                <li>تنفيذ حصص دعم إضافية.</li>
-                                                <li>متابعة أسبوعية من قبل المنسقة.</li>
-                                            </ul>
+                                            <p class="text-xs text-slate-500 mt-1">تنفيذ أعمال إبداعية، تزيين المراكن،
+                                                وتجهيز ركن بيئي للعرض.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-3 items-start">
+                                        <div
+                                            class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 text-emerald-600 font-bold text-sm">
+                                            6</div>
+                                        <div>
+                                            <h6 class="font-bold text-slate-700 text-sm">الشهادات</h6>
+                                            <p class="text-xs text-slate-500 mt-1">إعداد شهادات تقدير للأمهات الداعمات
+                                                وإبراز دورهن.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Follow-up Card -->
+                            <!-- Recommendations -->
                             <div
-                                class="bg-white/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/50 relative overflow-hidden shadow-sm">
-                                <div
-                                    class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-indigo-500">
-                                </div>
-                                <h4 class="text-2xl font-bold text-slate-800 mb-8 flex items-center gap-3">
-                                    <i class="ph-duotone ph-clipboard-text text-blue-600"></i>
-                                    بطاقة المتابعة والتقييم
+                                class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-100">
+                                <h4 class="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-lightbulb text-2xl text-emerald-600"></i> التوصيات
                                 </h4>
-
-                                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                    <!-- Positives -->
-                                    <div class="bg-green-50 p-6 rounded-xl border border-green-200">
-                                        <h5 class="text-green-700 font-bold mb-4 flex items-center gap-2">
-                                            <i class="ph-duotone ph-thumbs-up text-2xl"></i> الإيجابيات
-                                        </h5>
-                                        <ul class="text-sm text-slate-600 space-y-3">
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> تعزيز روح
-                                                المنافسة الإيجابية بين الطلاب.</li>
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> رفع مستوى
-                                                التحصيل الدراسي والتحفيز المستمر.</li>
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> تنمية الثقة
-                                                بالنفس وتحفيز الطلاب على الاجتهاد.</li>
-                                            <li class="flex gap-2"><span class="text-green-600">•</span> تشجيع التعاون
-                                                بين المعلمين وأولياء الأمور.</li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Obstacles -->
-                                    <div class="bg-red-50 p-6 rounded-xl border border-red-200">
-                                        <h5 class="text-red-700 font-bold mb-4 flex items-center gap-2">
-                                            <i class="ph-duotone ph-warning-circle text-2xl"></i> المعوقات
-                                        </h5>
-                                        <ul class="text-sm text-slate-600 space-y-3">
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> ضعف الدافعية لدى
-                                                بعض الطلاب.</li>
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> نقص الدعم المادي
-                                                للأنشطة التحفيزية.</li>
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> قلة مشاركة أولياء
-                                                الأمور في دعم أبنائهم.</li>
-                                            <li class="flex gap-2"><span class="text-red-600">•</span> تباين مستويات
-                                                الطلاب وصعوبة توحيد الآليات.</li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Suggestions -->
-                                    <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                                        <h5 class="text-blue-700 font-bold mb-4 flex items-center gap-2">
-                                            <i class="ph-duotone ph-lightbulb text-2xl"></i> المقترحات
-                                        </h5>
-                                        <ul class="text-sm text-slate-600 space-y-3">
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> إعداد خطة متابعة
-                                                أسبوعية وشهرية للتحليل.</li>
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> تخصيص جوائز
-                                                رمزية وشهادات تشجيعية.</li>
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> إشراك أولياء
-                                                الأمور في ورش توعوية.</li>
-                                            <li class="flex gap-2"><span class="text-blue-600">•</span> استخدام المنصات
-                                                التقنية لمتابعة الأداء.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Evidence -->
-                            <div class="bg-white/60 backdrop-blur-md p-6 rounded-2xl border border-white/50 shadow-sm">
-                                <h4 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
-                                    <i class="ph-duotone ph-folder-open text-2xl text-yellow-500"></i> شواهد الأداء
-                                </h4>
-                                <div class="flex flex-wrap gap-3">
-                                    <span
-                                        class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">شرح
-                                        المبادرة وأهدافها</span>
-                                    <span
-                                        class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">كيفية
-                                        التنفيذ والأنشطة</span>
-                                    <span
-                                        class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">النتائج
-                                        المتوقعة</span>
-                                    <span
-                                        class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">استمارات
-                                        المتابعة الأسبوعية</span>
-                                    <span
-                                        class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">استمارة
-                                        باسم كل طالب</span>
-                                    <span
-                                        class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">قياس
-                                        التحسن والأثر</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Initiative 3: Spelling Bee - Full Content (Embedded) -->
-                <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
-                    <div
-                        class="absolute top-0 right-0 w-96 h-96 bg-yellow-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
-                    </div>
-
-                    <div class="p-8 md:p-12">
-                        <!-- Header -->
-                        <div
-                            class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8">
-                            <div class="flex items-start gap-6">
-                                <div class="w-24 h-24 shrink-0 relative">
-                                    <div class="absolute inset-0 bg-yellow-500/20 blur-xl rounded-full"></div>
-                                    <div
-                                        class="relative z-10 w-full h-full bg-yellow-500/10 rounded-2xl flex items-center justify-center border-2 border-yellow-500/30">
-                                        <span class="text-5xl">🐝</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h3 class="text-3xl md:text-4xl font-bold font-heading text-slate-800 mb-2">نحلة
-                                        الإملاء
-                                        (Spelling Bee)
-                                    </h3>
-                                    <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">مسابقة تنافسية لتنمية
-                                        مهارات اللغة الإنجليزية، تهدف إلى إثراء الحصيلة اللغوية للطالبات وتعزيز الثقة
-                                        بالنفس.</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-2 shrink-0">
-                                <span
-                                    class="px-4 py-2 rounded-full bg-yellow-100 text-yellow-700 border border-yellow-200 text-sm font-bold">لغات</span>
-                                <span
-                                    class="px-4 py-2 rounded-full bg-yellow-100 text-yellow-700 border border-yellow-200 text-sm font-bold">مهاري</span>
-                            </div>
-                        </div>
-
-                        <!-- Info Grid -->
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">المجال</div>
-                                <div class="text-slate-800 font-bold">اللغة الإنجليزية</div>
-                            </div>
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">تاريخ التنفيذ</div>
-                                <div class="text-slate-800 font-bold">4/4 - 9/4/1447هـ</div>
-                            </div>
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">المسؤولة</div>
-                                <div class="text-slate-800 font-bold">فاتن السيلة</div>
-                            </div>
-                            <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
-                                <div class="text-slate-500 text-xs mb-1">نسبة الإنجاز</div>
-                                <div class="text-slate-800 font-bold">100%</div>
-                            </div>
-                        </div>
-
-                        <!-- Detailed Content -->
-                        <div class="space-y-8">
-
-                            <!-- Training Report Section -->
-                            <div class="liquid-glass-card liquid-glass-emerald p-6">
-                                <h4 class="text-xl font-bold text-yellow-700 mb-6 flex items-center gap-2">
-                                    <i class="ph-duotone ph-presentation text-2xl"></i> تقرير تدريب المبشركين - المرحلة
-                                    الأولى
-                                </h4>
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                                    <div class="bg-white/40 p-4 rounded-xl border border-white/40">
-                                        <div class="text-slate-500 text-sm mb-1">مكان التنفيذ</div>
-                                        <div class="text-slate-700 font-semibold">واحل الفصل حمس الشاطر / رابط البادلت
-                                        </div>
-                                    </div>
-                                    <div class="bg-white/40 p-4 rounded-xl border border-white/40">
-                                        <div class="text-slate-500 text-sm mb-1">المستهدفون</div>
-                                        <div class="text-slate-700 font-semibold">المشتركين بمبادرة Spelling Bee</div>
-                                    </div>
-                                </div>
-
-                                <!-- Objectives -->
-                                <h5 class="text-yellow-700 font-bold mb-4 text-lg">الأهداف:</h5>
                                 <ul class="space-y-3">
                                     <li class="flex gap-3 items-start">
-                                        <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
-                                        <span class="text-slate-700 text-sm leading-relaxed">تنمية مهارات الهجاء باللغة
-                                            الإنجليزية بطريقة ممتعة</span>
+                                        <i class="ph-duotone ph-star text-emerald-500 mt-1"></i>
+                                        <span class="text-slate-700 text-sm">الاستمرار في تفعيل فكرة إعادة التدوير كمحور
+                                            ثابت في المدرسة.</span>
                                     </li>
                                     <li class="flex gap-3 items-start">
-                                        <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
-                                        <span class="text-slate-700 text-sm leading-relaxed">تعزيز ثقة الطلاب والطالبات
-                                            بأنفسهم عند التحدث أمام الآخرين</span>
+                                        <i class="ph-duotone ph-star text-emerald-500 mt-1"></i>
+                                        <span class="text-slate-700 text-sm">توسيع نطاق المشاركة ليشمل طلاباً
+                                            إضافيين.</span>
                                     </li>
                                     <li class="flex gap-3 items-start">
-                                        <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
-                                        <span class="text-slate-700 text-sm leading-relaxed">تعزيزروح المنافسة الايجابية
-                                            والعمل بروح الفريق</span>
+                                        <i class="ph-duotone ph-star text-emerald-500 mt-1"></i>
+                                        <span class="text-slate-700 text-sm">التخطيط لبرامج لاحقة تمتد لخدمة المجتمع إلى
+                                            جانب البيئة.</span>
                                     </li>
                                     <li class="flex gap-3 items-start">
-                                        <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
-                                        <span class="text-slate-700 text-sm leading-relaxed">دمج الأنشطة التعليمية
-                                            بالمرح لجعل التعلم أكثر جاذبية</span>
+                                        <i class="ph-duotone ph-star text-emerald-500 mt-1"></i>
+                                        <span class="text-slate-700 text-sm">ربط الأنشطة بالمناسبات الوطنية والدينية
+                                            لتعزيز الانتماء.</span>
+                                    </li>
+                                    <li class="flex gap-3 items-start">
+                                        <i class="ph-duotone ph-star text-emerald-500 mt-1"></i>
+                                        <span class="text-slate-700 text-sm">إدراج أنشطة ميدانية ورحلات (مراكز تدوير –
+                                            حدائق عامة).</span>
+                                    </li>
+                                    <li class="flex gap-3 items-start">
+                                        <i class="ph-duotone ph-star text-emerald-500 mt-1"></i>
+                                        <span class="text-slate-700 text-sm">اعتماد جوائز وشهادات لتكريم الطلاب والأسر
+                                            المشاركة.</span>
                                     </li>
                                 </ul>
                             </div>
 
-                            <!-- Implementation Positives -->
-                            <div class="liquid-glass-card p-6"
-                                style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(22, 163, 74, 0.1) 100%); border-color: rgba(34, 197, 94, 0.3);">
-                                <h4 class="text-xl font-bold text-green-700 mb-6 flex items-center gap-2">
-                                    <i class="ph-duotone ph-thumbs-up text-2xl"></i> إيجابيات تطبيق المبادرة
+                        </div>
+                    </div>
+                    <!-- Report 2: Friends of Environment -->
+                    <div
+                        class="bg-white/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/50 relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500">
+                        </div>
+
+                        <!-- Header -->
+                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
+                            <div>
+                                <h4 class="text-2xl font-bold text-blue-600 mb-1">تقرير أصدقاء البيئة والمجتمع
                                 </h4>
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div class="bg-white/50 p-4 rounded-xl border border-white/50">
-                                        <p class="text-slate-700 text-sm">تنمية مهارات القراءة والنطق الصحيح لدى الطلاب
-                                        </p>
-                                    </div>
-                                    <div class="bg-white/50 p-4 rounded-xl border border-white/50">
-                                        <p class="text-slate-700 text-sm">تعزيز اللغة بتقليص إتقان التحدث باللغة
-                                            الإنجليزية</p>
-                                    </div>
-                                    <div class="bg-white/50 p-4 rounded-xl border border-white/50">
-                                        <p class="text-slate-700 text-sm">تحسين مستوى الكتابة والإملاء باللغة الإنجليزية
-                                        </p>
-                                    </div>
-                                    <div class="bg-white/50 p-4 rounded-xl border border-white/50">
-                                        <p class="text-slate-700 text-sm">توجيه الطلاب على استخدام اللغة بثقة في الحياة
-                                            اليومية</p>
-                                    </div>
-                                    <div class="bg-white/50 p-4 rounded-xl border border-white/50">
-                                        <p class="text-slate-700 text-sm">دعم التعلم النشط من خلال أنشطة والعاب لغوية
-                                            ممتعة</p>
-                                    </div>
+                                <p class="text-slate-500 text-sm">مبادرة لتعزيز التكافل والمسؤولية المجتمعية</p>
+                            </div>
+                            <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-500">
+                                <span class="px-3 py-1 rounded bg-slate-100 border border-slate-200">1/4 -
+                                    5/5/1447</span>
+                                <span class="px-3 py-1 rounded bg-slate-100 border border-slate-200">المنفذ: ندى
+                                    هاشم</span>
+                            </div>
+                        </div>
+
+                        <!-- Objectives Grid -->
+                        <div class="liquid-glass-card p-6 mb-8"
+                            style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.15) 0%, rgba(14, 165, 233, 0.1) 100%); border-color: rgba(6, 182, 212, 0.3);">
+                            <h5 class="text-cyan-800 font-bold mb-4 flex items-center gap-2 text-lg">
+                                <i class="ph-duotone ph-target text-2xl"></i> الأهداف
+                            </h5>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div
+                                    class="bg-slate-50 p-4 rounded-xl border border-slate-200 hover:border-blue-500/30 transition-colors">
+                                    <p class="text-slate-600 text-sm leading-relaxed">ترسيخ قيمة التطوع كمنهج
+                                        حياة وربط خدمة المجتمع بالبيئة.</p>
+                                </div>
+                                <div
+                                    class="bg-slate-50 p-4 rounded-xl border border-slate-200 hover:border-blue-500/30 transition-colors">
+                                    <p class="text-slate-600 text-sm leading-relaxed">تنمية وعي الطلاب بأهمية
+                                        السرية في العطاء والإخلاص.</p>
+                                </div>
+                                <div
+                                    class="bg-slate-50 p-4 rounded-xl border border-slate-200 hover:border-blue-500/30 transition-colors">
+                                    <p class="text-slate-600 text-sm leading-relaxed">إشراك أولياء الأمور وتعزيز
+                                        الانتماء للوطن عبر المناسبات.</p>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Implementation Steps -->
-                            <div class="liquid-glass-card liquid-glass-blue p-6">
-                                <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
-                                    <i class="ph-duotone ph-steps text-2xl"></i> برامج مقترحات تطبيق المبادرة
-                                </h4>
-                                <div class="relative border-r-2 border-blue-500/30 mr-3 space-y-6 pr-8">
-                                    <div class="relative">
-                                        <span
-                                            class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-500 border-4 border-white shadow-lg"></span>
-                                        <p class="text-slate-700 text-sm leading-relaxed">ضعف الأساس اللغوي لدى بعض
-                                            الطلاب</p>
-                                    </div>
-                                    <div class="relative">
-                                        <span
-                                            class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-400 border-4 border-white shadow-lg"></span>
-                                        <p class="text-slate-700 text-sm leading-relaxed">قلة الوقت المخصص لتطبيق
-                                            المبادرة داخل الحصص الدراسية</p>
-                                    </div>
-                                    <div class="relative">
-                                        <span
-                                            class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-300 border-4 border-white shadow-lg"></span>
-                                        <p class="text-slate-700 text-sm leading-relaxed">نقص الوسائل التعليمية الحديثة
-                                            والمتنوعة</p>
-                                    </div>
-                                    <div class="relative">
-                                        <span
-                                            class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-200 border-4 border-white shadow-lg"></span>
-                                        <p class="text-slate-700 text-sm leading-relaxed">تفاوت مستويات الطلاب في فهم
-                                            اللغة الأجنبية</p>
-                                    </div>
-                                    <div class="relative">
-                                        <span
-                                            class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-100 border-4 border-white shadow-lg"></span>
-                                        <p class="text-slate-700 text-sm leading-relaxed">قلة التدريب لدى بعض المعلمين
-                                            على استراتيجيات تعلم التهجئة الحديثة</p>
-                                    </div>
-                                    <div class="relative">
-                                        <span
-                                            class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-50 border-4 border-white shadow-lg"></span>
-                                        <p class="text-slate-700 text-sm leading-relaxed">قلة التدريب لدى بعض المعلمين
-                                            على استراتيجيات تعلم الترجعة الحديثة</p>
-                                    </div>
+                        <!-- Timeline (Axes) -->
+                        <div class="liquid-glass-card p-6"
+                            style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.15) 0%, rgba(14, 165, 233, 0.1) 100%); border-color: rgba(6, 182, 212, 0.3);">
+                            <h5 class="text-cyan-800 font-bold mb-6 flex items-center gap-2 text-lg">
+                                <i class="ph-duotone ph-steps text-2xl"></i> مراحل التنفيذ
+                            </h5>
+                            <div class="relative border-r-2 border-cyan-500/30 mr-3 space-y-8 pr-8">
+                                <!-- Step 1 -->
+                                <div class="relative">
+                                    <span
+                                        class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500 border-4 border-white"></span>
+                                    <h6 class="text-blue-700 font-bold mb-2">المحور الأول: التهيئة والانطلاق
+                                    </h6>
+                                    <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
+                                        <li>صياغة الخطة التنفيذية وتجهيز العرض المرئي.</li>
+                                        <li>اجتماع مع الإرشاد لتحديد المستفيدين (سرية تامة).</li>
+                                        <li>حصر طلاب "مبادرة الفطور" للدعم الأسبوعي.</li>
+                                        <li>حصر نواقص النظافة لمساهمات أولياء الأمور.</li>
+                                        <li>مبادرة "سلة الشكر" الرمزية للإدارة.</li>
+                                    </ul>
                                 </div>
+                                <!-- Step 2 -->
+                                <div class="relative">
+                                    <span
+                                        class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500/50 border-4 border-white"></span>
+                                    <h6 class="text-blue-700 font-bold mb-2">المحور الثاني: التأسيس المعرفي</h6>
+                                    <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
+                                        <li>تقديم المحتوى الشرعي (آيات وأحاديث) عن التعاون.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Follow-up Card -->
+                    <div
+                        class="bg-white/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/50 relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-orange-500">
+                        </div>
+                        <h4 class="text-2xl font-bold text-yellow-600 mb-8">بطاقة المتابعة والتقييم</h4>
+
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <!-- Positives -->
+                            <div class="bg-green-50 p-6 rounded-xl border border-green-200">
+                                <h5 class="text-green-700 font-bold mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-thumbs-up text-2xl"></i>
+                                    الإيجابيات
+                                </h5>
+                                <ul class="text-sm text-slate-600 space-y-3">
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> نشر الوعي
+                                        البيئي وتقليل التلوث.</li>
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> ترشيد استهلاك
+                                        الموارد الطبيعية.</li>
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> تعزيز المسؤولية
+                                        الاجتماعية والتعاون.</li>
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> تنمية الحس
+                                        الوطني والمشاركة التطوعية.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Obstacles -->
+                            <div class="bg-red-50 p-6 rounded-xl border border-red-200">
+                                <h5 class="text-red-700 font-bold mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-warning-circle text-2xl"></i>
+                                    المعوقات
+                                </h5>
+                                <ul class="text-sm text-slate-600 space-y-3">
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> ضعف الوعي البيئي
+                                        لدى البعض.</li>
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> نقص الدعم المادي
+                                        للمشاريع.</li>
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> ضعف استمرارية
+                                        المبادرات.</li>
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> قلة التحفيز
+                                        الرسمي للمتطوعين.</li>
+                                </ul>
                             </div>
 
                             <!-- Suggestions -->
+                            <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
+                                <h5 class="text-blue-700 font-bold mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-lightbulb text-2xl"></i>
+                                    المقترحات التطويرية
+                                </h5>
+                                <ul class="text-sm text-slate-600 space-y-3">
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> تفعيل حملات
+                                        توعوية منتظمة.</li>
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> عقد شراكات للدعم
+                                        المادي.</li>
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> تنظيم دورات
+                                        تدريبية للأعضاء.</li>
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> تنفيذ مشاريع
+                                        ميدانية (تشجير، تنظيف).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Initiative 2 -->
+        <!-- Initiative 2: Full Content (Embedded) -->
+        <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+            <div
+                class="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
+            </div>
+
+            <div class="p-6 md:p-8">
+                <!-- Header -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8">
+                    <div class="flex items-start gap-6">
+                        <div class="w-24 h-24 shrink-0 relative">
+                            <div class="absolute inset-0 bg-blue-500/20 blur-xl rounded-full"></div>
+                            <img src="assets/images/environment-3d.png" alt="Education"
+                                class="relative z-10 w-full h-full object-contain drop-shadow-lg">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl md:text-4xl font-bold font-heading text-slate-800 mb-2">معاً نحو
+                                التفوق
+                            </h3>
+                            <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">مبادرة تعليمية علاجية
+                                تهدف
+                                لرفع مستوى التحصيل الدراسي وعلاج التأخر في المهارات الأساسية.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 shrink-0">
+                        <span
+                            class="px-4 py-2 rounded-full bg-blue-100 text-blue-700 border border-blue-200 text-sm font-bold">تعليمي</span>
+                        <span
+                            class="px-4 py-2 rounded-full bg-blue-100 text-blue-700 border border-blue-200 text-sm font-bold">علاجي</span>
+                    </div>
+                </div>
+
+                <!-- Info Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">المجال</div>
+                        <div class="text-slate-800 font-bold">التحصيل الدراسي</div>
+                    </div>
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">تاريخ التنفيذ</div>
+                        <div class="text-slate-800 font-bold">1447/3/20 - 4/30</div>
+                    </div>
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">المسؤولة</div>
+                        <div class="text-slate-800 font-bold">فيحاء البقمي</div>
+                    </div>
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">المستفيدين</div>
+                        <div class="text-slate-800 font-bold">50+ طالبة</div>
+                    </div>
+                </div>
+
+                <!-- Detailed Content -->
+                <div class="space-y-8">
+
+                    <!-- Objectives & Phases -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Objectives -->
+                        <div class="liquid-glass-card liquid-glass-blue p-6 rounded-2xl">
+                            <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-target text-2xl"></i> الأهداف التفصيلية
+                            </h4>
+                            <ul class="space-y-4">
+                                <li class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
+                                    <span class="text-slate-600 text-sm leading-relaxed">رفع مستوى التحصيل
+                                        الدراسي في مادتي الرياضيات ولغتي وتطوير المهارات الأساسية.</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
+                                    <span class="text-slate-600 text-sm leading-relaxed">تحسين مستوى الطلاب
+                                        المتأخرين دراسياً من خلال خطط دعم فردية وموجهة.</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
+                                    <span class="text-slate-600 text-sm leading-relaxed">توفير بيئة تعليمية
+                                        داعمة
+                                        تراعي الفروق الفردية وتبني المهارات الأساسية.</span>
+                                </li>
+                                <li class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-blue-500 mt-1"></i>
+                                    <span class="text-slate-600 text-sm leading-relaxed">تعزيز ثقة الطلاب في
+                                        أنفسهم في التعامل مع المسائل الرياضية.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Execution Phases -->
+                        <div class="liquid-glass-card liquid-glass-blue p-6 rounded-2xl">
+                            <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-steps text-2xl"></i> مراحل التنفيذ
+                            </h4>
+                            <div class="relative border-r-2 border-blue-500/30 mr-3 space-y-8 pr-8">
+                                <div class="relative">
+                                    <span
+                                        class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500 border-4 border-white"></span>
+                                    <h6 class="text-blue-700 font-bold mb-1">المرحلة الأولى: الإعداد والتخطيط
+                                    </h6>
+                                    <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
+                                        <li>حصر الطلاب المتأخرين دراسياً.</li>
+                                        <li>إجراء اختبارات تشخيصية لتحديد نقاط الضعف.</li>
+                                        <li>إعداد خطة علاجية فردية لكل طالب.</li>
+                                    </ul>
+                                </div>
+                                <div class="relative">
+                                    <span
+                                        class="absolute -right-[37px] top-1 w-4 h-4 rounded-full bg-blue-500/50 border-4 border-white"></span>
+                                    <h6 class="text-blue-700 font-bold mb-1">المرحلة الثانية: التنفيذ والمتابعة
+                                    </h6>
+                                    <ul class="text-sm text-slate-500 space-y-1 list-disc list-inside">
+                                        <li>تحديد المهارات الأساسية المتأخرة.</li>
+                                        <li>تنفيذ حصص دعم إضافية.</li>
+                                        <li>متابعة أسبوعية من قبل المنسقة.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Follow-up Card -->
+                    <div
+                        class="bg-white/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/50 relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-indigo-500">
+                        </div>
+                        <h4 class="text-2xl font-bold text-slate-800 mb-8 flex items-center gap-3">
+                            <i class="ph-duotone ph-clipboard-text text-blue-600"></i>
+                            بطاقة المتابعة والتقييم
+                        </h4>
+
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <!-- Positives -->
+                            <div class="bg-green-50 p-6 rounded-xl border border-green-200">
+                                <h5 class="text-green-700 font-bold mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-thumbs-up text-2xl"></i> الإيجابيات
+                                </h5>
+                                <ul class="text-sm text-slate-600 space-y-3">
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> تعزيز روح
+                                        المنافسة الإيجابية بين الطلاب.</li>
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> رفع مستوى
+                                        التحصيل الدراسي والتحفيز المستمر.</li>
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> تنمية الثقة
+                                        بالنفس وتحفيز الطلاب على الاجتهاد.</li>
+                                    <li class="flex gap-2"><span class="text-green-600">•</span> تشجيع التعاون
+                                        بين المعلمين وأولياء الأمور.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Obstacles -->
+                            <div class="bg-red-50 p-6 rounded-xl border border-red-200">
+                                <h5 class="text-red-700 font-bold mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-warning-circle text-2xl"></i> المعوقات
+                                </h5>
+                                <ul class="text-sm text-slate-600 space-y-3">
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> ضعف الدافعية لدى
+                                        بعض الطلاب.</li>
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> نقص الدعم المادي
+                                        للأنشطة التحفيزية.</li>
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> قلة مشاركة أولياء
+                                        الأمور في دعم أبنائهم.</li>
+                                    <li class="flex gap-2"><span class="text-red-600">•</span> تباين مستويات
+                                        الطلاب وصعوبة توحيد الآليات.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Suggestions -->
+                            <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
+                                <h5 class="text-blue-700 font-bold mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-lightbulb text-2xl"></i> المقترحات
+                                </h5>
+                                <ul class="text-sm text-slate-600 space-y-3">
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> إعداد خطة متابعة
+                                        أسبوعية وشهرية للتحليل.</li>
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> تخصيص جوائز
+                                        رمزية وشهادات تشجيعية.</li>
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> إشراك أولياء
+                                        الأمور في ورش توعوية.</li>
+                                    <li class="flex gap-2"><span class="text-blue-600">•</span> استخدام المنصات
+                                        التقنية لمتابعة الأداء.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Evidence -->
+                    <div class="bg-white/60 backdrop-blur-md p-6 rounded-2xl border border-white/50 shadow-sm">
+                        <h4 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                            <i class="ph-duotone ph-folder-open text-2xl text-yellow-500"></i> شواهد الأداء
+                        </h4>
+                        <div class="flex flex-wrap gap-3">
+                            <span
+                                class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">شرح
+                                المبادرة وأهدافها</span>
+                            <span
+                                class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">كيفية
+                                التنفيذ والأنشطة</span>
+                            <span
+                                class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">النتائج
+                                المتوقعة</span>
+                            <span
+                                class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">استمارات
+                                المتابعة الأسبوعية</span>
+                            <span
+                                class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">استمارة
+                                باسم كل طالب</span>
+                            <span
+                                class="px-4 py-2 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">قياس
+                                التحسن والأثر</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Initiative 3: Spelling Bee - Full Content (Embedded) -->
+        <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+            <div
+                class="absolute top-0 right-0 w-96 h-96 bg-yellow-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
+            </div>
+
+            <div class="p-6 md:p-8">
+                <!-- Header -->
+                <div
+                    class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-yellow-50/80 p-6 rounded-2xl">
+                    <div class="flex items-start gap-6">
+                        <div class="w-24 h-24 shrink-0 relative">
+                            <div class="absolute inset-0 bg-yellow-500/20 blur-xl rounded-full"></div>
+                            <div
+                                class="relative z-10 w-full h-full bg-yellow-500/10 rounded-2xl flex items-center justify-center border-2 border-yellow-500/30">
+                                <span class="text-5xl">🐝</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-3xl md:text-4xl font-bold font-heading text-yellow-800 mb-2">نحلة
+                                الإملاء
+                            </h3>
+                            <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">برنامج لتعزيز مهارات
+                                الإملاء والكتابة الصحيحة بأسلوب ممتع وتنافسي.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 shrink-0">
+                        <span
+                            class="px-4 py-2 rounded-full bg-white text-yellow-700 border border-yellow-200 text-sm font-bold shadow-sm">مهاري</span>
+                        <span
+                            class="px-4 py-2 rounded-full bg-white text-yellow-700 border border-yellow-200 text-sm font-bold shadow-sm">تنافسي</span>
+                    </div>
+                </div>
+
+                <!-- Info Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">المجال</div>
+                        <div class="text-slate-800 font-bold">اللغة الإنجليزية</div>
+                    </div>
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">تاريخ التنفيذ</div>
+                        <div class="text-slate-800 font-bold">4/4 - 9/4/1447هـ</div>
+                    </div>
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">المسؤولة</div>
+                        <div class="text-slate-800 font-bold">فاتن السيلة</div>
+                    </div>
+                    <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                        <div class="text-slate-500 text-xs mb-1">نسبة الإنجاز</div>
+                        <div class="text-slate-800 font-bold">100%</div>
+                    </div>
+                </div>
+
+                <!-- Detailed Content -->
+                <div class="space-y-8">
+
+                    <!-- Training Report Section -->
+                    <div class="liquid-glass-card liquid-glass-emerald p-6">
+                        <h4 class="text-xl font-bold text-yellow-700 mb-6 flex items-center gap-2">
+                            <i class="ph-duotone ph-presentation text-2xl"></i> تقرير تدريب المبشركين - المرحلة
+                            الأولى
+                        </h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div class="bg-white/40 p-4 rounded-xl border border-white/40">
+                                <div class="text-slate-500 text-sm mb-1">مكان التنفيذ</div>
+                                <div class="text-slate-700 font-semibold">واحل الفصل حمس الشاطر / رابط البادلت
+                                </div>
+                            </div>
+                            <div class="bg-white/40 p-4 rounded-xl border border-white/40">
+                                <div class="text-slate-500 text-sm mb-1">المستهدفون</div>
+                                <div class="text-slate-700 font-semibold">المشتركين بمبادرة Spelling Bee</div>
+                            </div>
+                        </div>
+
+                        <!-- Objectives -->
+                        <h5 class="text-yellow-700 font-bold mb-4 text-lg">الأهداف:</h5>
+                        <ul class="space-y-3">
+                            <li class="flex gap-3 items-start">
+                                <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
+                                <span class="text-slate-700 text-sm leading-relaxed">تنمية مهارات الهجاء باللغة
+                                    الإنجليزية بطريقة ممتعة</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
+                                <span class="text-slate-700 text-sm leading-relaxed">تعزيز ثقة الطلاب والطالبات
+                                    بأنفسهم عند التحدث أمام الآخرين</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
+                                <span class="text-slate-700 text-sm leading-relaxed">تعزيزروح المنافسة الايجابية
+                                    والعمل بروح الفريق</span>
+                            </li>
+                            <li class="flex gap-3 items-start">
+                                <i class="ph-duotone ph-check-circle text-yellow-600 mt-1"></i>
+                                <span class="text-slate-700 text-sm leading-relaxed">دمج الأنشطة التعليمية
+                                    بالمرح لجعل التعلم أكثر جاذبية</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Implementation Positives -->
+                    <div class="liquid-glass-card p-6"
+                        style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(22, 163, 74, 0.1) 100%); border-color: rgba(34, 197, 94, 0.3);">
+                        <h4 class="text-xl font-bold text-green-700 mb-6 flex items-center gap-2">
+                            <i class="ph-duotone ph-thumbs-up text-2xl"></i> إيجابيات تطبيق المبادرة
+                        </h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50">
+                                <p class="text-slate-700 text-sm">تنمية مهارات القراءة والنطق الصحيح لدى الطلاب
+                                </p>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50">
+                                <p class="text-slate-700 text-sm">تعزيز اللغة بتقليص إتقان التحدث باللغة
+                                    الإنجليزية</p>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50">
+                                <p class="text-slate-700 text-sm">تحسين مستوى الكتابة والإملاء باللغة الإنجليزية
+                                </p>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50">
+                                <p class="text-slate-700 text-sm">توجيه الطلاب على استخدام اللغة بثقة في الحياة
+                                    اليومية</p>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50">
+                                <p class="text-slate-700 text-sm">دعم التعلم النشط من خلال أنشطة والعاب لغوية
+                                    ممتعة</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Implementation Steps -->
+                    <div class="liquid-glass-card liquid-glass-blue p-6">
+                        <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
+                            <i class="ph-duotone ph-steps text-2xl"></i> برامج مقترحات تطبيق المبادرة
+                        </h4>
+                        <div class="relative border-r-2 border-blue-500/30 mr-3 space-y-6 pr-8">
+                            <div class="relative">
+                                <span
+                                    class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-500 border-4 border-white shadow-lg"></span>
+                                <p class="text-slate-700 text-sm leading-relaxed">ضعف الأساس اللغوي لدى بعض
+                                    الطلاب</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-400 border-4 border-white shadow-lg"></span>
+                                <p class="text-slate-700 text-sm leading-relaxed">قلة الوقت المخصص لتطبيق
+                                    المبادرة داخل الحصص الدراسية</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-300 border-4 border-white shadow-lg"></span>
+                                <p class="text-slate-700 text-sm leading-relaxed">نقص الوسائل التعليمية الحديثة
+                                    والمتنوعة</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-200 border-4 border-white shadow-lg"></span>
+                                <p class="text-slate-700 text-sm leading-relaxed">تفاوت مستويات الطلاب في فهم
+                                    اللغة الأجنبية</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-100 border-4 border-white shadow-lg"></span>
+                                <p class="text-slate-700 text-sm leading-relaxed">قلة التدريب لدى بعض المعلمين
+                                    على استراتيجيات تعلم التهجئة الحديثة</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -right-[38px] top-1 w-5 h-5 rounded-full bg-blue-50 border-4 border-white shadow-lg"></span>
+                                <p class="text-slate-700 text-sm leading-relaxed">قلة التدريب لدى بعض المعلمين
+                                    على استراتيجيات تعلم الترجعة الحديثة</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Suggestions -->
+                    <div class="liquid-glass-card p-6"
+                        style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(126, 34, 206, 0.1) 100%); border-color: rgba(147, 51, 234, 0.3);">
+                        <h4 class="text-xl font-bold text-purple-700 mb-6 flex items-center gap-2">
+                            <i class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطوير
+                        </h4>
+                        <div class="space-y-4">
+                            <div
+                                class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
+                                <p class="text-slate-700 text-sm leading-relaxed">إعداد برامج تدريبية للمعلمين
+                                    حول طرق تدريس التهجئة بفاعلية</p>
+                            </div>
+                            <div
+                                class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
+                                <p class="text-slate-700 text-sm leading-relaxed">تخصيص حصص أسبوعية لأنشطة لطبيق
+                                    أنشطة التهجئة</p>
+                            </div>
+                            <div
+                                class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
+                                <p class="text-slate-700 text-sm leading-relaxed">استخدام الوسائط المتعددة
+                                    والألعاب الإلكترونية لتسهيل التعلم</p>
+                            </div>
+                            <div
+                                class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
+                                <p class="text-slate-700 text-sm leading-relaxed">إشراك أولياء الأمور في متابعة
+                                    تقدم مستوى أبنائهم</p>
+                            </div>
+                            <div
+                                class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
+                                <p class="text-slate-700 text-sm leading-relaxed">إقامة مسابقات توعوية لتحفيز
+                                    التنافس الإيجابي بين الطلاب</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Initiative 4: Read Fluently - Full Content (Embedded) -->
+            <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+                <div
+                    class="absolute top-0 left-0 w-96 h-96 bg-red-500/10 rounded-full blur-3xl -ml-20 -mt-20 pointer-events-none">
+                </div>
+
+                <div class="p-6 md:p-8">
+                    <!-- Header -->
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-red-50/80 p-6 rounded-2xl">
+                        <div class="flex items-start gap-6">
+                            <div class="w-24 h-24 shrink-0 relative">
+                                <div class="absolute inset-0 bg-red-500/20 blur-xl rounded-full"></div>
+                                <div
+                                    class="relative z-10 w-full h-full bg-red-500/10 rounded-2xl flex items-center justify-center border-2 border-red-500/30">
+                                    <span class="text-5xl">📖</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-3xl md:text-4xl font-bold font-heading text-red-800 mb-2">اقرأ بطلاقة
+                                </h3>
+                                <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">برنامج علاجي لرفع مستوى
+                                    الطلاقة القرائية لدى طلاب الصف الثالث، يركز على السرعة والدقة وسلامة النطق.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 shrink-0">
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-red-700 border border-red-200 text-sm font-bold shadow-sm">مهاري</span>
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-red-700 border border-red-200 text-sm font-bold shadow-sm">علاجي</span>
+                        </div>
+                    </div>
+
+                    <!-- Info Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+                        <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                            <div class="text-slate-500 text-xs mb-1">المجال</div>
+                            <div class="text-slate-800 font-bold">تحسين مهارات القراءة</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                            <div class="text-slate-500 text-xs mb-1">تاريخ التنفيذ</div>
+                            <div class="text-slate-800 font-bold">11/5 - 22/5/1447هـ</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                            <div class="text-slate-500 text-xs mb-1">المسؤولة</div>
+                            <div class="text-slate-800 font-bold">فاطمة الشمراني</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-xl border border-white/50 text-center shadow-sm">
+                            <div class="text-slate-500 text-xs mb-1">المستفيدين</div>
+                            <div class="text-slate-800 font-bold">32 طالب وطالبة (3)</div>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Content -->
+                    <div class="space-y-8">
+
+                        <!-- Goals Section -->
+                        <div class="liquid-glass-card p-6"
+                            style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(220, 38, 38, 0.1) 100%); border-color: rgba(239, 68, 68, 0.3);">
+                            <h4 class="text-xl font-bold text-red-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-target text-2xl"></i> أهداف المبادرة
+                            </h4>
+
+                            <div class="mb-6 bg-white/50 p-4 rounded-xl border border-white/50">
+                                <h5 class="font-bold text-red-700 mb-2 text-sm">الهدف العام:</h5>
+                                <p class="text-slate-700 text-sm leading-relaxed">رفع مستوى الطلاقة القرائية لدى طلاب
+                                    الصف الثالث الابتدائي من خلال تنفيذ برامج علاجية تسهم في تحسين سرعة القراءة، ودقتها،
+                                    وسلامة النطق، بما ينعكس على تحسين مهارات الفهم القرائي ونواتج التعلم.</p>
+                            </div>
+
+                            <h5 class="font-bold text-red-700 mb-3 text-sm">الأهداف التفصيلية:</h5>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-red-600 mt-1"></i>
+                                    <span class="text-slate-700 text-sm">تحسين قدرة الطلاب على قراءة الكلمات الأكثر
+                                        شيوعاً بسهولة.</span>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-red-600 mt-1"></i>
+                                    <span class="text-slate-700 text-sm">رفع مستوى القراءة الجهرية من حيث السرعة
+                                        والدقة.</span>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-red-600 mt-1"></i>
+                                    <span class="text-slate-700 text-sm">اكتساب مهارات القراءة الموجهة والقراءة بالترديد
+                                        والقراءة المشتركة.</span>
+                                </div>
+                                <div class="flex gap-3 items-start">
+                                    <i class="ph-duotone ph-check-circle text-red-600 mt-1"></i>
+                                    <span class="text-slate-700 text-sm">إشراك ولي الأمر في دعم الطالب بالمنزل.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Description & Tools -->
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                            <!-- Description -->
+                            <div class="liquid-glass-card liquid-glass-blue p-6">
+                                <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2">
+                                    <i class="ph-duotone ph-list-dashes text-2xl"></i> وصف المبادرة
+                                </h4>
+                                <ul class="space-y-4 relative border-r-2 border-blue-200 mr-2 pr-6">
+                                    <li class="relative">
+                                        <span
+                                            class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span>
+                                        <span class="text-slate-700 text-sm">حصر مستويات الطلاب في مهارة القراءة
+                                            الجهرية.</span>
+                                    </li>
+                                    <li class="relative">
+                                        <span
+                                            class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span>
+                                        <span class="text-slate-700 text-sm">تحديد الطلاب ذوي الاحتياج في القراءة (سرعة،
+                                            دقة، سلامة نطق).</span>
+                                    </li>
+                                    <li class="relative">
+                                        <span
+                                            class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span>
+                                        <span class="text-slate-700 text-sm">إعداد خطة علاجية فردية وجماعية.</span>
+                                    </li>
+                                    <li class="relative">
+                                        <span
+                                            class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span>
+                                        <span class="text-slate-700 text-sm">تجهيز أدوات المبادرة (بطاقات كلمات – نصوص
+                                            قصيرة – سجل متابعة – ركن القراءة).</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Tools -->
                             <div class="liquid-glass-card p-6"
-                                style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(126, 34, 206, 0.1) 100%); border-color: rgba(147, 51, 234, 0.3);">
-                                <h4 class="text-xl font-bold text-purple-700 mb-6 flex items-center gap-2">
-                                    <i class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطوير
+                                style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(217, 119, 6, 0.1) 100%); border-color: rgba(245, 158, 11, 0.3);">
+                                <h4 class="text-xl font-bold text-amber-700 mb-6 flex items-center gap-2">
+                                    <i class="ph-duotone ph-toolbox text-2xl"></i> الوسائل المستخدمة
                                 </h4>
                                 <div class="space-y-4">
-                                    <div
-                                        class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
-                                        <p class="text-slate-700 text-sm leading-relaxed">إعداد برامج تدريبية للمعلمين
-                                            حول طرق تدريس التهجئة بفاعلية</p>
+                                    <!-- Diagnostic Tools -->
+                                    <div>
+                                        <h5
+                                            class="text-sm font-bold text-amber-800 mb-2 border-b border-amber-200 pb-1">
+                                            أدوات التشخيص والتقييم:</h5>
+                                        <ul
+                                            class="list-disc list-inside text-sm text-slate-700 space-y-1 marker:text-amber-500">
+                                            <li>اختبار قراءة تشخيصي (كلمات – جمل – نص قصير).</li>
+                                            <li>بطاقة ملاحظة الطلاقة (السرعة – الدقة – سلامة النطق).</li>
+                                            <li>قائمة التقييم الأولي للطلاب.</li>
+                                        </ul>
                                     </div>
-                                    <div
-                                        class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
-                                        <p class="text-slate-700 text-sm leading-relaxed">تخصيص حصص أسبوعية لأنشطة لطبيق
-                                            أنشطة التهجئة</p>
+
+                                    <!-- Texts -->
+                                    <div>
+                                        <h5
+                                            class="text-sm font-bold text-amber-800 mb-2 border-b border-amber-200 pb-1">
+                                            نصوص قصيرة تدريبية:</h5>
+                                        <ul
+                                            class="list-disc list-inside text-sm text-slate-700 space-y-1 marker:text-amber-500">
+                                            <li>نصوص قصيرة جداً للمرحلة الأولى (3-4 أسطر).</li>
+                                            <li>نصوص بسيطة من كتاب لغتي.</li>
+                                            <li>نصوص إثرائية سهلة لاختبار الطلاقة.</li>
+                                        </ul>
                                     </div>
-                                    <div
-                                        class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
-                                        <p class="text-slate-700 text-sm leading-relaxed">استخدام الوسائط المتعددة
-                                            والألعاب الإلكترونية لتسهيل التعلم</p>
+
+                                    <!-- Classroom Tools -->
+                                    <div>
+                                        <h5
+                                            class="text-sm font-bold text-amber-800 mb-2 border-b border-amber-200 pb-1">
+                                            أدوات الصف:</h5>
+                                        <ul
+                                            class="list-disc list-inside text-sm text-slate-700 space-y-1 marker:text-amber-500">
+                                            <li>سبورة ذكية / سبورة تقليدية للقراءة المشتركة.</li>
+                                            <li>أقلام + بطاقات للأنشطة.</li>
+                                            <li>ركن "القراءة السريعة" داخل الصف.</li>
+                                            <li>نماذج تقييم أسبوعي للطلاقة.</li>
+                                        </ul>
                                     </div>
-                                    <div
-                                        class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
-                                        <p class="text-slate-700 text-sm leading-relaxed">إشراك أولياء الأمور في متابعة
-                                            تقدم مستوى أبنائهم</p>
-                                    </div>
-                                    <div
-                                        class="bg-white/50 p-4 rounded-xl border border-white/50 hover:bg-white/70 transition-colors">
-                                        <p class="text-slate-700 text-sm leading-relaxed">إقامة مسابقات توعوية لتحفيز
-                                            التنافس الإيجابي بين الطلاب</p>
+
+                                    <!-- Motivation -->
+                                    <div>
+                                        <h5
+                                            class="text-sm font-bold text-amber-800 mb-2 border-b border-amber-200 pb-1">
+                                            الوسائل المحفزة:</h5>
+                                        <ul
+                                            class="list-disc list-inside text-sm text-slate-700 space-y-1 marker:text-amber-500">
+                                            <li>ملصقات تحفيزية.</li>
+                                            <li>بطاقة (قارئ الأسبوع).</li>
+                                            <li>طوابع تشجيعية / كلمات جميلة للطلاب.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
-                </div>
 
-                <!-- Initiative 4 -->
-                <div
-                    class="glass-panel-snow card-3d rounded-3xl p-8 md:p-10 border border-white/40 flex flex-col md:flex-row gap-8 items-center group">
-                    <div class="w-full md:w-1/4 shrink-0">
-                        <div
-                            class="card-number-box aspect-square rounded-2xl bg-red-500/10 border border-red-500/20 flex items-center justify-center relative overflow-hidden">
-                            <div class="absolute inset-0 bg-red-500/20 blur-xl transition-all">
+                        <!-- Positives & Obstacles -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Positives -->
+                            <div class="liquid-glass-card liquid-glass-emerald p-6">
+                                <h4 class="text-xl font-bold text-emerald-700 mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-thumbs-up text-2xl"></i> الإيجابيات
+                                </h4>
+                                <ul class="space-y-3">
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-emerald-500 mt-1">•</span> تنمية مهارة القراءة وجعلها أكثر
+                                        طلاقة وسلاسة.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-emerald-500 mt-1">•</span> تحسين الفهم القرائي واستيعاب
+                                        النصوص.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-emerald-500 mt-1">•</span> تعزيز الثقة بالنفس عند القراءة أمام
+                                        الآخرين.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-emerald-500 mt-1">•</span> رفع المستوى التحصيلي في المواد التي
+                                        تعتمد على القراءة.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-emerald-500 mt-1">•</span> غرس حب القراءة وجعلها عادة يومية
+                                        ممتعة.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-emerald-500 mt-1">•</span> تعزيز التعاون بين المدرسة والأسرة
+                                        لدعم التعلم.
+                                    </li>
+                                </ul>
                             </div>
-                            <span class="card-number-3d text-6xl font-bold text-red-600 relative z-10">4</span>
-                        </div>
-                    </div>
-                    <div class="w-full md:w-3/4">
-                        <div class="header-3d header-red p-4 rounded-2xl mb-4">
-                            <h3 class="text-2xl font-bold text-slate-800">اقرأ بطلاقة</h3>
-                        </div>
-                        <p class="text-slate-600 text-lg leading-relaxed mb-6">برنامج يركز على رفع مستوى الطلاقة
-                            القرائية
-                            والفهم والاستيعاب لدى الطالبات، من خلال جلسات قراءة مكثفة ومتابعة دقيقة.</p>
-                        <div class="flex gap-3">
-                            <span
-                                class="px-3 py-1 rounded-full bg-red-100 text-red-700 text-xs border border-red-200">قرائي</span>
-                            <span
-                                class="px-3 py-1 rounded-full bg-red-100 text-red-700 text-xs border border-red-200">تأسيسي</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Initiative 5 -->
-                <div
-                    class="glass-panel-snow card-3d rounded-3xl p-8 md:p-10 border border-white/40 flex flex-col md:flex-row-reverse gap-8 items-center group">
-                    <div class="w-full md:w-1/4 shrink-0">
-                        <div
-                            class="card-number-box aspect-square rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center relative overflow-hidden">
-                            <div class="absolute inset-0 bg-purple-500/20 blur-xl transition-all">
+                            <!-- Obstacles -->
+                            <div class="bg-red-50/50 p-6 rounded-2xl border border-red-100">
+                                <h4 class="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
+                                    <i class="ph-duotone ph-warning-circle text-2xl"></i> المعوقات
+                                </h4>
+                                <ul class="space-y-3">
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-red-500 mt-1">•</span> ضعف الدافعية لدى بعض الطلاب تجاه
+                                        القراءة.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-red-500 mt-1">•</span> قلة الوقت المخصص للقراءة ضمن الجدول
+                                        الدراسي.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-red-500 mt-1">•</span> نقص الوسائل التعليمية المحفزة (قصص
+                                        مصورة، كتب تفاعلية).
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-red-500 mt-1">•</span> تفاوت مستويات الطلاب وصعوبة تطبيق موحد.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-red-500 mt-1">•</span> وجود صعوبات لغوية أو نطقية لدى بعض
+                                        الطلاب.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-red-500 mt-1">•</span> محدودية مصادر القراءة المناسبة
+                                        للمستويات المختلفة.
+                                    </li>
+                                </ul>
                             </div>
-                            <span class="card-number-3d text-6xl font-bold text-purple-600 relative z-10">5</span>
                         </div>
-                    </div>
-                    <div class="w-full md:w-3/4 text-right">
-                        <div class="header-3d header-purple p-4 rounded-2xl mb-4">
-                            <h3 class="text-2xl font-bold text-slate-800">العب بذكاء</h3>
-                        </div>
-                        <p class="text-slate-600 text-lg leading-relaxed mb-6">مبادرة توعوية للحد من مخاطر الألعاب
-                            الإلكترونية العنيفة، وتوجيه الطالبات نحو الألعاب التي تنمي الذكاء والمهارات العقلية.</p>
-                        <div class="flex gap-3 justify-end">
-                            <span
-                                class="px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-xs border border-purple-200">توعوي</span>
-                            <span
-                                class="px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-xs border border-purple-200">تقني</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Initiative 6 -->
-                <div
-                    class="glass-panel-snow card-3d rounded-3xl p-8 md:p-10 border border-white/40 flex flex-col md:flex-row gap-8 items-center group">
-                    <div class="w-full md:w-1/4 shrink-0">
-                        <div
-                            class="card-number-box aspect-square rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center relative overflow-hidden">
-                            <div class="absolute inset-0 bg-indigo-500/20 blur-xl transition-all">
+                        <!-- Recommendations & Communication -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Recommendations -->
+                            <div class="liquid-glass-card p-6"
+                                style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(126, 34, 206, 0.1) 100%); border-color: rgba(147, 51, 234, 0.3);">
+                                <h4 class="text-xl font-bold text-purple-700 mb-6 flex items-center gap-2">
+                                    <i class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطويرية
+                                </h4>
+                                <ul class="space-y-3">
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-purple-500 mt-1">•</span> تخصيص وقت يومي أو أسبوعي للقراءة
+                                        الحرة داخل الحصص.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-purple-500 mt-1">•</span> تنوع أساليب التعليم (ألعاب قرائية،
+                                        أنشطة ممتعة).
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-purple-500 mt-1">•</span> تفعيل دور الأسرة في تشجيع القراءة
+                                        المنزلية.
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-purple-500 mt-1">•</span> استخدام التقنية الحديثة (تطبيقات
+                                        تفاعلية، منصات رقمية).
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-purple-500 mt-1">•</span> تحفيز الطلاب المتميزين وتنظيم
+                                        مسابقات "قارئ الأسبوع".
+                                    </li>
+                                    <li class="flex gap-2 items-start text-sm text-slate-700">
+                                        <span class="text-purple-500 mt-1">•</span> تنظيم برامج إذاعية ومسابقات مدرسية
+                                        لتشجيع الطلاقة.
+                                    </li>
+                                </ul>
                             </div>
-                            <span class="card-number-3d text-6xl font-bold text-indigo-600 relative z-10">6</span>
-                        </div>
-                    </div>
-                    <div class="w-full md:w-3/4">
-                        <div class="header-3d header-indigo p-4 rounded-2xl mb-4">
-                            <h3 class="text-2xl font-bold text-slate-800">مدرستي قدوة</h3>
-                        </div>
-                        <p class="text-slate-600 text-lg leading-relaxed mb-6">تعزيز القيم السلوكية والانضباط المدرسي،
-                            وغرس القدوة الحسنة في نفوس الطالبات من خلال برامج وأنشطة متنوعة.</p>
-                        <div class="flex gap-3">
-                            <span
-                                class="px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs border border-indigo-200">سلوكي</span>
-                            <span
-                                class="px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs border border-indigo-200">قيمي</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Initiative 7 -->
-                <div
-                    class="glass-panel-snow card-3d rounded-3xl p-8 md:p-10 border border-white/40 flex flex-col md:flex-row-reverse gap-8 items-center group">
-                    <div class="w-full md:w-1/4 shrink-0">
-                        <div
-                            class="card-number-box aspect-square rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center relative overflow-hidden">
-                            <div class="absolute inset-0 bg-cyan-500/20 blur-xl transition-all">
+                            <!-- Communication with Guardian -->
+                            <div class="liquid-glass-card p-6"
+                                style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(219, 39, 119, 0.1) 100%); border-color: rgba(236, 72, 153, 0.3);">
+                                <h4 class="text-xl font-bold text-pink-700 mb-6 flex items-center gap-2">
+                                    <i class="ph-duotone ph-chats-circle text-2xl"></i> وسائل التواصل مع ولي الأمر
+                                </h4>
+                                <div class="space-y-4">
+                                    <div
+                                        class="bg-white/50 p-4 rounded-xl border border-white/50 flex items-center gap-4">
+                                        <div
+                                            class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 shrink-0">
+                                            <i class="ph-duotone ph-users-three text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-bold text-pink-800 text-sm">مجموعة واتساب</h5>
+                                            <p class="text-slate-600 text-xs">عمل قروب مع ولية الأمر لمتابعة الطالب في
+                                                المنزل.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-white/50 p-4 rounded-xl border border-white/50 flex items-center gap-4">
+                                        <div
+                                            class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 shrink-0">
+                                            <i class="ph-duotone ph-link text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-bold text-pink-800 text-sm">روابط إثرائية</h5>
+                                            <p class="text-slate-600 text-xs">روابط قراءة منزلية أو صور كلمات (اختياري).
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <span class="card-number-3d text-6xl font-bold text-cyan-600 relative z-10">7</span>
                         </div>
-                    </div>
-                    <div class="w-full md:w-3/4 text-right">
-                        <div class="header-3d header-cyan p-4 rounded-2xl mb-4">
-                            <h3 class="text-2xl font-bold text-slate-800">نواتج ذكية</h3>
-                        </div>
-                        <p class="text-slate-600 text-lg leading-relaxed mb-6">توظيف أدوات الذكاء الاصطناعي في تحسين
-                            نواتج التعلم، وتدريب الطالبات على استخدام التقنيات الحديثة في التعليم.</p>
-                        <div class="flex gap-3 justify-end">
-                            <span
-                                class="px-3 py-1 rounded-full bg-cyan-100 text-cyan-700 text-xs border border-cyan-200">تقني</span>
-                            <span
-                                class="px-3 py-1 rounded-full bg-cyan-100 text-cyan-700 text-xs border border-cyan-200">مستقبلي</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Initiative 8 -->
-                <div
-                    class="glass-panel-snow card-3d rounded-3xl p-8 md:p-10 border border-white/40 flex flex-col md:flex-row gap-8 items-center group">
-                    <div class="w-full md:w-1/4 shrink-0">
-                        <div
-                            class="card-number-box aspect-square rounded-2xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center relative overflow-hidden">
-                            <div class="absolute inset-0 bg-pink-500/20 blur-xl transition-all">
+                        <!-- Evidence of Achievement (New Section) -->
+                        <div class="liquid-glass-card p-8"
+                            style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(2, 132, 199, 0.1) 100%); border-color: rgba(14, 165, 233, 0.3);">
+                            <h4
+                                class="text-2xl font-bold text-sky-800 mb-8 flex items-center gap-3 border-b border-sky-200 pb-4">
+                                <i class="ph-duotone ph-image text-3xl"></i> شواهد الإنجاز
+                            </h4>
+
+                            <!-- Photos Grid - Polaroid Style -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+                                <div
+                                    class="bg-white p-3 pb-8 shadow-lg rotate-1 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                                    <div class="aspect-square bg-slate-200 mb-3 overflow-hidden relative group">
+                                        <i
+                                            class="ph-duotone ph-image text-4xl text-slate-400 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                                    </div>
+                                    <div class="text-center font-handwriting text-slate-600 text-sm">القراءة الجماعية
+                                    </div>
+                                </div>
+                                <div
+                                    class="bg-white p-3 pb-8 shadow-lg -rotate-1 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                                    <div class="aspect-square bg-slate-200 mb-3 overflow-hidden relative group">
+                                        <i
+                                            class="ph-duotone ph-image text-4xl text-slate-400 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                                    </div>
+                                    <div class="text-center font-handwriting text-slate-600 text-sm">ركن القراءة</div>
+                                </div>
+                                <div
+                                    class="bg-white p-3 pb-8 shadow-lg rotate-2 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                                    <div class="aspect-square bg-slate-200 mb-3 overflow-hidden relative group">
+                                        <i
+                                            class="ph-duotone ph-image text-4xl text-slate-400 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                                    </div>
+                                    <div class="text-center font-handwriting text-slate-600 text-sm">تكريم الطلاب</div>
+                                </div>
+                                <div
+                                    class="bg-white p-3 pb-8 shadow-lg -rotate-2 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                                    <div class="aspect-square bg-slate-200 mb-3 overflow-hidden relative group">
+                                        <i
+                                            class="ph-duotone ph-qr-code text-4xl text-slate-400 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                                    </div>
+                                    <div class="text-center font-handwriting text-slate-600 text-sm">مسح الرمز</div>
+                                </div>
                             </div>
-                            <span class="card-number-3d text-6xl font-bold text-pink-600 relative z-10">8</span>
+
+                            <!-- Participants List -->
+                            <div
+                                class="bg-white/60 rounded-2xl border border-white/50 p-8 mb-8 relative overflow-hidden">
+                                <div
+                                    class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-sky-400 via-blue-500 to-sky-400">
+                                </div>
+                                <h5 class="font-bold text-sky-900 mb-6 text-lg flex items-center gap-2">
+                                    <i class="ph-duotone ph-users text-2xl"></i> قائمة الطلاب المشاركين
+                                </h5>
+                                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> رغد عبد الرحمن</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> سارة محمد</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> أحمد رياض</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> ترف خالد</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> فيصل عبد الله</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> مجد الرويلي</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> محمد سعد</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> ريان فهد</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> ناصر القرني</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> وسام الشمري</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> لمى الزهراني</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> يعقوب الغامدي</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> معاذ العتيبي</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> حور عبد الكريم</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> أنس إبراهيم</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> أحمد المطيري</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> ليان حمدان</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> حورية عبد الواحد
+                                    </div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> سديم عقيل</div>
+                                    <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                            class="ph-fill ph-circle text-[6px] text-sky-500"></i> عمر خالد</div>
+                                </div>
+                            </div>
+
+                            <!-- Signatures -->
+                            <div class="flex justify-between items-center pt-8 mt-8 border-t border-sky-200/50">
+                                <div class="text-center group cursor-pointer">
+                                    <div class="text-xs text-slate-500 mb-2 uppercase tracking-wider">معدة التقرير</div>
+                                    <div class="font-bold text-sky-900 font-heading text-lg relative inline-block">
+                                        فاطمة الشمراني
+                                        <span
+                                            class="absolute -bottom-1 left-0 w-0 h-0.5 bg-sky-500 transition-all group-hover:w-full"></span>
+                                    </div>
+                                </div>
+                                <div class="text-center group cursor-pointer">
+                                    <div class="text-xs text-slate-500 mb-2 uppercase tracking-wider">قائدة المدرسة
+                                    </div>
+                                    <div class="font-bold text-sky-900 font-heading text-lg relative inline-block">
+                                        هدى الحازمي
+                                        <span
+                                            class="absolute -bottom-1 left-0 w-0 h-0.5 bg-sky-500 transition-all group-hover:w-full"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="w-full md:w-3/4">
-                        <div class="header-3d header-pink p-4 rounded-2xl mb-4">
-                            <h3 class="text-2xl font-bold text-slate-800">بأيدينا نبدع</h3>
-                        </div>
-                        <p class="text-slate-600 text-lg leading-relaxed mb-6">تنمية المهارات الحركية والإبداع الفني لدى
-                            الطالبات من خلال ورش عمل فنية وأشغال يدوية تعزز الابتكار.</p>
-                        <div class="flex gap-3">
-                            <span
-                                class="px-3 py-1 rounded-full bg-pink-100 text-pink-700 text-xs border border-pink-200">فني</span>
-                            <span
-                                class="px-3 py-1 rounded-full bg-pink-100 text-pink-700 text-xs border border-pink-200">إبداعي</span>
-                        </div>
+
                     </div>
                 </div>
-
             </div>
+
+            <!-- Initiative 5 -->
+            <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+                <div
+                    class="absolute top-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
+                </div>
+
+                <div class="p-6 md:p-8">
+                    <!-- Header -->
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-purple-50/80 p-6 rounded-2xl">
+                        <div class="flex items-start gap-6">
+                            <div class="w-24 h-24 shrink-0 relative">
+                                <div class="absolute inset-0 bg-purple-500/20 blur-xl rounded-full"></div>
+                                <div
+                                    class="relative z-10 w-full h-full bg-purple-500/10 rounded-2xl flex items-center justify-center border-2 border-purple-500/30">
+                                    <span class="text-5xl">🎮</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-3xl md:text-4xl font-bold font-heading text-purple-800 mb-2">العب بذكاء
+                                </h3>
+                                <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">مبادرة توعوية للحد من مخاطر
+                                    الألعاب الإلكترونية العنيفة، وتوجيه الطالبات نحو الألعاب التي تنمي الذكاء والمهارات
+                                    العقلية.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 shrink-0">
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-purple-700 border border-purple-200 text-sm font-bold shadow-sm">توعوي</span>
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-purple-700 border border-purple-200 text-sm font-bold shadow-sm">تقني</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Detailed Content -->
+            <div class="space-y-8">
+                <!-- Goals Section -->
+                <div class="liquid-glass-card p-6"
+                    style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(124, 58, 237, 0.1) 100%); border-color: rgba(139, 92, 246, 0.3);">
+                    <h4 class="text-xl font-bold text-purple-800 mb-6 flex items-center gap-2"><i
+                            class="ph-duotone ph-target text-2xl"></i> أهداف المبادرة</h4>
+                    <div class="mb-6 bg-white/50 p-4 rounded-xl border border-white/50">
+                        <h5 class="font-bold text-purple-700 mb-2 text-sm">الهدف العام:</h5>
+                        <p class="text-slate-700 text-sm leading-relaxed">تقليل مخاطر الألعاب الإلكترونية العنيفة وتعزيز
+                            الألعاب التي تنمي الذكاء والمهارات العقلية للطالبات.</p>
+                    </div>
+                    <h5 class="font-bold text-purple-700 mb-3 text-sm">الأهداف التفصيلية:</h5>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="flex gap-3 items-start">
+                            <i class="ph-duotone ph-check-circle text-purple-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm">توعية الطالبات بمخاطر الألعاب العنيفة.</span>
+                        </div>
+                        <div class="flex gap-3 items-start">
+                            <i class="ph-duotone ph-check-circle text-purple-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm">توجيه الطالبات لاختيار ألعاب تعليمية تنمي
+                                التفكير.</span>
+                        </div>
+                        <div class="flex gap-3 items-start">
+                            <i class="ph-duotone ph-check-circle text-purple-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm">إشراك أولياء الأمور في متابعة اختيار الألعاب.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Description & Tools -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div class="liquid-glass-card liquid-glass-blue p-6">
+                        <h4 class="text-xl font-bold text-blue-700 mb-6 flex items-center gap-2"><i
+                                class="ph-duotone ph-list-dashes text-2xl"></i> وصف المبادرة</h4>
+                        <ul class="space-y-4 relative border-r-2 border-blue-200 mr-2 pr-6">
+                            <li class="relative"><span
+                                    class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span><span
+                                    class="text-slate-700 text-sm">توعية عبر ورش عمل وعروض توضيحية.</span></li>
+                            <li class="relative"><span
+                                    class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span><span
+                                    class="text-slate-700 text-sm">توزيع بطاقات إرشادية للألعاب المناسبة.</span></li>
+                            <li class="relative"><span
+                                    class="absolute -right-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></span><span
+                                    class="text-slate-700 text-sm">متابعة دورية مع أولياء الأمور.</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="liquid-glass-card p-6">
+                        <h4 class="text-xl font-bold text-amber-700 mb-6 flex items-center gap-2"><i
+                                class="ph-duotone ph-toolbox text-2xl"></i> الوسائل المستخدمة</h4>
+                        <div class="space-y-3">
+                            <div class="bg-white/50 p-3 rounded-lg text-sm text-slate-700 flex gap-2 items-center"><i
+                                    class="ph-duotone ph-exam text-amber-600"></i> أدوات تشخيص (قائمة ألعاب، تصنيف
+                                محتوى).</div>
+                            <div class="bg-white/50 p-3 rounded-lg text-sm text-slate-700 flex gap-2 items-center"><i
+                                    class="ph-duotone ph-file-text text-amber-600"></i> دليل إرشادي للمعلمين.</div>
+                            <div class="bg-white/50 p-3 rounded-lg text-sm text-slate-700 flex gap-2 items-center"><i
+                                    class="ph-duotone ph-chalkboard-teacher text-amber-600"></i> جلسات توعوية في الصف.
+                            </div>
+                            <div class="bg-white/50 p-3 rounded-lg text-sm text-slate-700 flex gap-2 items-center"><i
+                                    class="ph-duotone ph-star text-amber-600"></i> جوائز تشجيعية للطالبات المتميزة.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Positives & Obstacles -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="liquid-glass-card liquid-glass-emerald p-6">
+                        <h4 class="text-xl font-bold text-emerald-700 mb-4 flex items-center gap-2"><i
+                                class="ph-duotone ph-thumbs-up text-2xl"></i> الإيجابيات</h4>
+                        <ul class="space-y-3">
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-emerald-500 mt-1">•</span> تعزيز الوعي بمخاطر الألعاب العنيفة.</li>
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-emerald-500 mt-1">•</span> تنمية مهارات التفكير النقدي.</li>
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-emerald-500 mt-1">•</span> مشاركة الأسرة في عملية التوعية.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-red-50/50 p-6 rounded-2xl border border-red-100">
+                        <h4 class="text-xl font-bold text-red-700 mb-4 flex items-center gap-2"><i
+                                class="ph-duotone ph-warning-circle text-2xl"></i> المعوقات</h4>
+                        <ul class="space-y-3">
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-red-500 mt-1">•</span> مقاومة بعض الطالبات لتغيير عادات اللعب.</li>
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-red-500 mt-1">•</span> نقص موارد الألعاب التعليمية.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Recommendations & Communication -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="liquid-glass-card p-6"
+                        style="background: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(126, 34, 206, 0.1) 100%); border-color: rgba(147, 51, 234, 0.3);">
+                        <h4 class="text-xl font-bold text-purple-700 mb-6 flex items-center gap-2"><i
+                                class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطويرية</h4>
+                        <ul class="space-y-3">
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-purple-500 mt-1">•</span> إنشاء منصة إلكترونية لتصنيف الألعاب.</li>
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-purple-500 mt-1">•</span> تنظيم مسابقات ألعاب تعليمية شهرية.</li>
+                            <li class="flex gap-2 items-start text-sm text-slate-700"><span
+                                    class="text-purple-500 mt-1">•</span> إشراك أولياء الأمور عبر مجموعات واتساب.</li>
+                        </ul>
+                    </div>
+
+                    <div class="liquid-glass-card p-6"
+                        style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(219, 39, 119, 0.1) 100%); border-color: rgba(236, 72, 153, 0.3);">
+                        <h4 class="text-xl font-bold text-pink-700 mb-6 flex items-center gap-2"><i
+                                class="ph-duotone ph-chats-circle text-2xl"></i> وسائل التواصل مع ولي الأمر</h4>
+                        <div class="space-y-4">
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50 flex items-center gap-4">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 shrink-0">
+                                    <i class="ph-duotone ph-users-three text-xl"></i></div>
+                                <div>
+                                    <h5 class="font-bold text-pink-800 text-sm">مجموعة واتساب</h5>
+                                    <p class="text-slate-600 text-xs">قروب لتبادل النصائح ومتابعة تقدم الطالبات.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-xl border border-white/50 flex items-center gap-4">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 shrink-0">
+                                    <i class="ph-duotone ph-link text-xl"></i></div>
+                                <div>
+                                    <h5 class="font-bold text-pink-800 text-sm">روابط إثرائية</h5>
+                                    <p class="text-slate-600 text-xs">مقالات وألعاب تعليمية للمنزل.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evidence of Achievement -->
+                <div class="liquid-glass-card p-8"
+                    style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(2, 132, 199, 0.1) 100%); border-color: rgba(14, 165, 233, 0.3);">
+                    <h4
+                        class="text-2xl font-bold text-sky-800 mb-8 flex items-center gap-3 border-b border-sky-200 pb-4">
+                        <i class="ph-duotone ph-image text-3xl"></i> شواهد الإنجاز</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+                        <div
+                            class="bg-white p-3 pb-8 shadow-lg rotate-1 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                            <div class="aspect-square bg-slate-100 mb-3 overflow-hidden relative group"><i
+                                    class="ph-duotone ph-image text-4xl text-slate-400 absolute inset-0 m-auto"></i>
+                            </div>
+                            <div class="text-center font-handwriting text-slate-600 text-sm">نشاط توعوي</div>
+                        </div>
+                        <div
+                            class="bg-white p-3 pb-8 shadow-lg -rotate-1 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                            <div class="aspect-square bg-slate-100 mb-3 overflow-hidden relative group"><i
+                                    class="ph-duotone ph-image text-4xl text-slate-400 absolute inset-0 m-auto"></i>
+                            </div>
+                            <div class="text-center font-handwriting text-slate-600 text-sm">ورشة عمل</div>
+                        </div>
+                        <div
+                            class="bg-white p-3 pb-8 shadow-lg rotate-2 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                            <div class="aspect-square bg-slate-100 mb-3 overflow-hidden relative group"><i
+                                    class="ph-duotone ph-image text-4xl text-slate-400 absolute inset-0 m-auto"></i>
+                            </div>
+                            <div class="text-center font-handwriting text-slate-600 text-sm">قائمة ألعاب</div>
+                        </div>
+                        <div
+                            class="bg-white p-3 pb-8 shadow-lg -rotate-2 hover:rotate-0 transition-transform duration-300 rounded-sm">
+                            <div class="aspect-square bg-slate-100 mb-3 overflow-hidden relative group"><i
+                                    class="ph-duotone ph-qr-code text-4xl text-slate-400 absolute inset-0 m-auto"></i>
+                            </div>
+                            <div class="text-center font-handwriting text-slate-600 text-sm">رمز QR للموارد</div>
+                        </div>
+                    </div>
+                    <div class="bg-white/60 rounded-2xl border border-white/50 p-8 mb-8 relative overflow-hidden">
+                        <div
+                            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-sky-400 via-blue-500 to-sky-400">
+                        </div>
+                        <h5 class="font-bold text-sky-900 mb-6 text-lg flex items-center gap-2"><i
+                                class="ph-duotone ph-users text-2xl"></i> قائمة الطلاب المشاركين</h5>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                            <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                    class="ph-fill ph-circle text-[6px] text-sky-500"></i> طالب 1</div>
+                            <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                    class="ph-fill ph-circle text-[6px] text-sky-500"></i> طالب 2</div>
+                            <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                    class="ph-fill ph-circle text-[6px] text-sky-500"></i> طالب 3</div>
+                            <div class="flex items-center gap-2 text-sm text-slate-700"><i
+                                    class="ph-fill ph-circle text-[6px] text-sky-500"></i> طالب 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 6 -->
+            <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+                <div
+                    class="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
+                </div>
+
+                <div class="p-6 md:p-8">
+                    <!-- Header -->
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-indigo-50/80 p-6 rounded-2xl">
+                        <div class="flex items-start gap-6">
+                            <div class="w-24 h-24 shrink-0 relative">
+                                <div class="absolute inset-0 bg-indigo-500/20 blur-xl rounded-full"></div>
+                                <div
+                                    class="relative z-10 w-full h-full bg-indigo-500/10 rounded-2xl flex items-center justify-center border-2 border-indigo-500/30">
+                                    <span class="text-5xl">🌟</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-3xl md:text-4xl font-bold font-heading text-indigo-800 mb-2">مدرستي قدوة
+                                </h3>
+                                <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">تعزيز القيم السلوكية
+                                    والانضباط المدرسي، وغرس القدوة الحسنة في نفوس الطالبات من خلال برامج وأنشطة متنوعة.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 shrink-0">
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-indigo-700 border border-indigo-200 text-sm font-bold shadow-sm">سلوكي</span>
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-indigo-700 border border-indigo-200 text-sm font-bold shadow-sm">قيمي</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 7 -->
+            <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+                <div
+                    class="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
+                </div>
+
+                <div class="p-6 md:p-8">
+                    <!-- Header -->
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-cyan-50/80 p-6 rounded-2xl">
+                        <div class="flex items-start gap-6">
+                            <div class="w-24 h-24 shrink-0 relative">
+                                <div class="absolute inset-0 bg-cyan-500/20 blur-xl rounded-full"></div>
+                                <div
+                                    class="relative z-10 w-full h-full bg-cyan-500/10 rounded-2xl flex items-center justify-center border-2 border-cyan-500/30">
+                                    <span class="text-5xl">🤖</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-3xl md:text-4xl font-bold font-heading text-cyan-800 mb-2">نواتج ذكية
+                                </h3>
+                                <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">توظيف أدوات الذكاء الاصطناعي
+                                    في تحسين نواتج التعلم، وتدريب الطالبات على استخدام التقنيات الحديثة في التعليم.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 shrink-0">
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-cyan-700 border border-cyan-200 text-sm font-bold shadow-sm">تقني</span>
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-cyan-700 border border-cyan-200 text-sm font-bold shadow-sm">مستقبلي</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 8 -->
+            <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
+                <div
+                    class="absolute top-0 right-0 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
+                </div>
+
+                <div class="p-6 md:p-8">
+                    <!-- Header -->
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 border-b border-slate-200 pb-8 bg-pink-50/80 p-6 rounded-2xl">
+                        <div class="flex items-start gap-6">
+                            <div class="w-24 h-24 shrink-0 relative">
+                                <div class="absolute inset-0 bg-pink-500/20 blur-xl rounded-full"></div>
+                                <div
+                                    class="relative z-10 w-full h-full bg-pink-500/10 rounded-2xl flex items-center justify-center border-2 border-pink-500/30">
+                                    <span class="text-5xl">🎨</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-3xl md:text-4xl font-bold font-heading text-pink-800 mb-2">بأيدينا نبدع
+                                </h3>
+                                <p class="text-slate-600 text-lg max-w-2xl leading-relaxed">تنمية المهارات الحركية
+                                    والإبداع الفني لدى الطالبات من خلال ورش عمل فنية وأشغال يدوية تعزز الابتكار.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 shrink-0">
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-pink-700 border border-pink-200 text-sm font-bold shadow-sm">فني</span>
+                            <span
+                                class="px-4 py-2 rounded-full bg-white text-pink-700 border border-pink-200 text-sm font-bold shadow-sm">إبداعي</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
     </section>
 
     <!-- Statistics Section -->
-    <section id="stats" class="py-32 relative z-10">
+    <section id="stats" class="py-16 relative z-10">
         <div class="container mx-auto px-4">
             <div class="section-header text-center mb-16">
                 <h2 class="text-3xl font-bold font-heading text-white mb-4">أرقام من الواقع</h2>
