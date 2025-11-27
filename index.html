@@ -475,42 +475,84 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="relative min-h-screen flex items-center justify-center z-10 overflow-hidden px-4">
-        <div class="container mx-auto text-center relative">
+    <header class="relative min-h-screen flex items-center justify-center z-10 overflow-hidden px-4 pt-20">
+        <div class="container mx-auto relative">
             <!-- Decorative Glow -->
             <div
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/30 rounded-full blur-[100px] -z-10">
             </div>
 
-            <div class="gsap-hero-item opacity-0 translate-y-10">
-                <div
-                    class="inline-block px-4 py-1 rounded-full border border-accent/30 bg-accent/10 text-accent text-sm mb-6 font-medium tracking-wide">
-                    إدارة تعليم جدة - مكتب التعليم بالنسيم
-                </div>
-            </div>
-
-            <h1
-                class="gsap-hero-item opacity-0 translate-y-10 text-5xl md:text-7xl lg:text-8xl font-black font-heading mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">
-                سجل المبادرات<br>المدرسية ابتدائية خزيمة بن ثابت
-            </h1>
-
-            <p
-                class="gsap-hero-item opacity-0 translate-y-10 text-lg md:text-2xl text-gray-400 max-w-2xl mx-auto mb-10 font-light">
-                نحو بيئة تعليمية مبتكرة ومستدامة تحقق التميز والريادة
-            </p>
-
-            <div
-                class="gsap-hero-item opacity-0 translate-y-10 flex flex-col md:flex-row gap-4 justify-center items-center">
-                <a href="#initiatives"
-                    class="group relative px-8 py-4 bg-accent text-black font-bold rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(226,183,20,0.4)]">
-                    <span class="relative z-10">استعرض المبادرات</span>
-                    <div
-                        class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Text Content (Right) -->
+                <div class="text-center md:text-right order-2 md:order-1">
+                    <div class="gsap-hero-item opacity-0 translate-y-10">
+                        <div
+                            class="inline-block px-4 py-1 rounded-full border border-accent/30 bg-accent/10 text-accent text-sm mb-6 font-medium tracking-wide">
+                            إدارة تعليم جدة - مكتب التعليم بالنسيم
+                        </div>
                     </div>
-                </a>
-                <div class="flex items-center gap-3 px-6 py-3 glass-panel rounded-full">
-                    <span class="text-gray-400 text-sm">بإشراف المديرة:</span>
-                    <span class="font-bold text-white">هدى الحازمي</span>
+
+                    <h1
+                        class="gsap-hero-item opacity-0 translate-y-10 text-5xl md:text-7xl lg:text-8xl font-black font-heading mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">
+                        سجل المبادرات<br>
+                        <span class="text-4xl md:text-6xl lg:text-7xl block mt-2">المدرسية</span>
+                        <span class="text-3xl md:text-5xl lg:text-6xl block mt-4 text-accent">ابتدائية خزيمة بن
+                            ثابت</span>
+                    </h1>
+
+                    <p
+                        class="gsap-hero-item opacity-0 translate-y-10 text-lg md:text-2xl text-gray-400 max-w-2xl mx-auto md:mx-0 mb-10 font-light">
+                        نحو بيئة تعليمية مبتكرة ومستدامة تحقق التميز والريادة
+                    </p>
+
+                    <div
+                        class="gsap-hero-item opacity-0 translate-y-10 flex flex-col md:flex-row gap-4 justify-center md:justify-start items-center flex-wrap">
+
+                        <!-- Supervisor Badge -->
+                        <div class="flex items-center gap-3 px-6 py-3 glass-panel rounded-full order-2 md:order-1">
+                            <span class="text-gray-400 text-sm">بإشراف المديرة:</span>
+                            <span class="font-bold text-white">هدى الحازمي</span>
+                        </div>
+
+                        <!-- Explore Button -->
+                        <a href="#initiatives"
+                            class="group relative px-8 py-4 bg-accent text-black font-bold rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(226,183,20,0.4)] order-1 md:order-2">
+                            <span class="relative z-10">استعرض المبادرات</span>
+                            <div
+                                class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            </div>
+                        </a>
+
+                        <!-- Coordinator Badge -->
+                        <div class="flex items-center gap-3 px-6 py-3 glass-panel rounded-full order-3">
+                            <span class="text-gray-400 text-sm">منسقة المبادرات:</span>
+                            <span class="font-bold text-white">مليحة حمدان الغامدي</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Content (Left) -->
+                <div class="relative order-1 md:order-2 flex justify-center">
+                    <!-- Decorative Blob Background -->
+                    <div
+                        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-cyan-500/20 to-blue-500/20 rounded-full blur-3xl animate-pulse">
+                    </div>
+
+                    <!-- Badge Image -->
+                    <div class="relative z-10 w-96 md:w-[40rem] aspect-square gsap-hero-item opacity-0 scale-90">
+                        <img src="assets/images/school_badge.png" alt="شعار المدرسة"
+                            class="w-full h-full object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500">
+
+                        <!-- Floating Elements (Decorative) -->
+                        <div
+                            class="absolute -top-4 -right-4 w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 flex items-center justify-center animate-bounce delay-100">
+                            <span class="text-2xl">✨</span>
+                        </div>
+                        <div
+                            class="absolute bottom-10 -left-8 w-16 h-16 bg-white/10 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center animate-bounce delay-700">
+                            <span class="text-3xl">🎓</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -2209,7 +2251,8 @@
                             <div class="bg-white/50 p-4 rounded-xl border border-white/50 flex items-center gap-4">
                                 <div
                                     class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 shrink-0">
-                                    <i class="ph-duotone ph-users-three text-xl"></i></div>
+                                    <i class="ph-duotone ph-users-three text-xl"></i>
+                                </div>
                                 <div>
                                     <h5 class="font-bold text-pink-800 text-sm">مجموعة واتساب</h5>
                                     <p class="text-slate-600 text-xs">قروب لتبادل النصائح ومتابعة تقدم الطالبات.</p>
@@ -2218,7 +2261,8 @@
                             <div class="bg-white/50 p-4 rounded-xl border border-white/50 flex items-center gap-4">
                                 <div
                                     class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 shrink-0">
-                                    <i class="ph-duotone ph-link text-xl"></i></div>
+                                    <i class="ph-duotone ph-link text-xl"></i>
+                                </div>
                                 <div>
                                     <h5 class="font-bold text-pink-800 text-sm">روابط إثرائية</h5>
                                     <p class="text-slate-600 text-xs">مقالات وألعاب تعليمية للمنزل.</p>
@@ -2233,7 +2277,8 @@
                     style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(2, 132, 199, 0.1) 100%); border-color: rgba(14, 165, 233, 0.3);">
                     <h4
                         class="text-2xl font-bold text-sky-800 mb-8 flex items-center gap-3 border-b border-sky-200 pb-4">
-                        <i class="ph-duotone ph-image text-3xl"></i> شواهد الإنجاز</h4>
+                        <i class="ph-duotone ph-image text-3xl"></i> شواهد الإنجاز
+                    </h4>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
                         <div
                             class="bg-white p-3 pb-8 shadow-lg rotate-1 hover:rotate-0 transition-transform duration-300 rounded-sm">
@@ -2284,7 +2329,7 @@
                 </div>
             </div>
 
-            <!-- Initiative 6 -->
+            <!-- Initiative 6: Madrasati Qudwa (Detailed) -->
             <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
                 <div
                     class="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
@@ -2317,10 +2362,155 @@
                                 class="px-4 py-2 rounded-full bg-white text-indigo-700 border border-indigo-200 text-sm font-bold shadow-sm">قيمي</span>
                         </div>
                     </div>
+
+                    <!-- Initiative Data -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">اسم المدرسة</div>
+                            <div class="font-bold text-indigo-900">خزيمة بن ثابت للطفولة المبكرة</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">تاريخ التنفيذ</div>
+                            <div class="font-bold text-indigo-900">1447هـ</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">المشرفة/الزائرة</div>
+                            <div class="font-bold text-indigo-900">زينه الشهري</div>
+                        </div>
+                    </div>
+
+                    <!-- Content Sections -->
+                    <div class="space-y-8">
+                        <!-- Positives -->
+                        <div class="liquid-glass-card p-6 border-indigo-200">
+                            <h4 class="text-xl font-bold text-indigo-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-thumbs-up text-2xl"></i> إيجابيات تطبيق المبادرة
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-check-circle text-indigo-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تعزيز القيم السلوكية الإيجابية لدى الطلاب
+                                        كالاحترام
+                                        والانضباط وتحمل المسؤولية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-plant text-indigo-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">غرس روح الانتماء والولاء للمدرسة وجعلها بيئة جاذبة
+                                        ومثالية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-users-three text-indigo-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تعزيز روح التعاون والعمل الجماعي بين منسوبي
+                                        المدرسة
+                                        والطلاب.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-handshake text-indigo-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">نشر ثقافة الاحترام المتبادل بين المعلمين والطلاب
+                                        وأولياء الأمور.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-sparkle text-indigo-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">الإسهام في تحسين المناخ المدرسي ليصبح بيئة محفزة
+                                        للتعلم والإبداع.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-star text-indigo-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تشجيع الطلاب على المبادرة والتميز في السلوك
+                                        والمظهر
+                                        والإنجاز.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Obstacles -->
+                        <div class="liquid-glass-card p-6 border-red-200 bg-red-50/30">
+                            <h4 class="text-xl font-bold text-red-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-warning-circle text-2xl"></i> معوقات تطبيق المبادرة
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-minus-circle text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">ضعف الوعي بأهمية المبادرة بين بعض الطلاب
+                                        والمعلمين.
+                                    </p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-clock text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">قلة الوقت المخصص لتطبيق الأنشطة المتعلقة
+                                        بالمبادرة.
+                                    </p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-users text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">ضعف المشاركة المجتمعية أو الأسرية في دعم أهداف
+                                        المبادرة.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-prohibit text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">مقاومة بعض الطلاب للتغيير في السلوك أو الالتزام
+                                        بالأنظمة.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-battery-warning text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">نقص الوسائل والبرامج المحفزة التي تعزز القدوة
+                                        الحسنة.
+                                    </p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-chart-line-down text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">غياب المتابعة المستمرة أو التقويم المنتظم لنتائج
+                                        المبادرة.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proposals -->
+                        <div class="liquid-glass-card p-6 border-amber-200 bg-amber-50/30">
+                            <h4 class="text-xl font-bold text-amber-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطويرية
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-presentation text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تنفيذ ورش عمل توعوية لتعريف الطلاب والمعلمين
+                                        بأهداف
+                                        المبادرة.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-trophy text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">إقامة برامج تكريم دورية لأفضل قدوة من الطلاب
+                                        والمعلمين.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-megaphone text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تفعيل وسائل الإعلام المدرسية (الإذاعة، اللوحات،
+                                        المنصات الرقمية) لنشر القيم الإيجابية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-house-line text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تعزيز التعاون مع أولياء الأمور لترسيخ مفهوم القدوة
+                                        في
+                                        المنزل والمدرسة.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-device-mobile text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">إدخال التحفيز الإلكتروني عبر تطبيقات ومسابقات
+                                        رقمية
+                                        تعزز السلوك الحسن.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-book-open text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">إدماج قيم المبادرة ضمن الأنشطة الصفية والمناهج
+                                        الدراسية.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Initiative 7 -->
+            <!-- Initiative 7: Smart Outcomes (Detailed) -->
             <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
                 <div
                     class="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
@@ -2352,10 +2542,106 @@
                                 class="px-4 py-2 rounded-full bg-white text-cyan-700 border border-cyan-200 text-sm font-bold shadow-sm">مستقبلي</span>
                         </div>
                     </div>
+
+                    <!-- Initiative Data -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">اسم المدرسة</div>
+                            <div class="font-bold text-cyan-900">خزيمة بن ثابت للطفولة المبكرة</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">تاريخ التنفيذ</div>
+                            <div class="font-bold text-cyan-900">1447هـ</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">المشرفة/الزائرة</div>
+                            <div class="font-bold text-cyan-900">ثريا الزهراني</div>
+                        </div>
+                    </div>
+
+                    <!-- Content Sections -->
+                    <div class="space-y-8">
+                        <!-- Positives -->
+                        <div class="liquid-glass-card p-6 border-cyan-200">
+                            <h4 class="text-xl font-bold text-cyan-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-thumbs-up text-2xl"></i> إيجابيات تطبيق المبادرة
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-brain text-cyan-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تعزيز التفكير النقدي والإبداعي لدى الطلاب.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-chart-line-up text-cyan-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تحسين جودة المخرجات التعليمية ورفع مستوى التحصيل.
+                                    </p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-robot text-cyan-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تشجيع استخدام التقنية والذكاء الاصطناعي في عمليات
+                                        التعليم والتقويم.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-magnifying-glass text-cyan-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تنمية مهارات الطلاب في تحليل المعلومات وتطبيقها في
+                                        مواقف واقعية.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Obstacles -->
+                        <div class="liquid-glass-card p-6 border-red-200 bg-red-50/30">
+                            <h4 class="text-xl font-bold text-red-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-warning-circle text-2xl"></i> معوقات تطبيق المبادرة
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-chalkboard-teacher text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">قلة التدريب الموجه للمعلمين على أدوات النواتج
+                                        الذكية.
+                                    </p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-hourglass text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">محدودية الوقت لتطبيق الأدوات الذكية بشكل متكامل.
+                                    </p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-scales text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">صعوبة تقييم بعض المهارات النوعية من خلال الوسائل
+                                        التقنية فقط.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proposals -->
+                        <div class="liquid-glass-card p-6 border-amber-200 bg-amber-50/30">
+                            <h4 class="text-xl font-bold text-amber-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطويرية
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-presentation-chart text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تنفيذ ورش تدريبية متخصصة للمعلمين حول تصميم وتطبيق
+                                        النواتج الذكية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-headset text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">توفير الدعم الفني المستمر لتفعيل التقنية في الصفوف
+                                        الدراسية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-users-four text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">إشراك الطلاب في تصميم أدوات التقييم الذكية لزيادة
+                                        تفاعلهم.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Initiative 8 -->
+            <!-- Initiative 8: We Create with Our Hands (Detailed) -->
             <div class="glass-panel-snow rounded-3xl overflow-hidden border border-white/40 relative">
                 <div
                     class="absolute top-0 right-0 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none">
@@ -2385,6 +2671,96 @@
                                 class="px-4 py-2 rounded-full bg-white text-pink-700 border border-pink-200 text-sm font-bold shadow-sm">فني</span>
                             <span
                                 class="px-4 py-2 rounded-full bg-white text-pink-700 border border-pink-200 text-sm font-bold shadow-sm">إبداعي</span>
+                        </div>
+                    </div>
+
+                    <!-- Initiative Data -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">اسم المدرسة</div>
+                            <div class="font-bold text-pink-900">خزيمة بن ثابت للطفولة المبكرة</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">تاريخ التنفيذ</div>
+                            <div class="font-bold text-pink-900">طوال العام الدراسي</div>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl border border-white/50 text-center">
+                            <div class="text-xs text-slate-500 mb-1">المنفذ</div>
+                            <div class="font-bold text-pink-900">معلمات رياض الأطفال</div>
+                        </div>
+                    </div>
+
+                    <!-- Content Sections -->
+                    <div class="space-y-8">
+                        <!-- Positives -->
+                        <div class="liquid-glass-card p-6 border-pink-200">
+                            <h4 class="text-xl font-bold text-pink-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-thumbs-up text-2xl"></i> إيجابيات تطبيق المبادرة
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-hand-pointing text-pink-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تعزيز المهارات الحركية الدقيقة للأطفال.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-paint-brush text-pink-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تنمية الإبداع والتخيل.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-eye text-pink-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تحسين التنسيق بين اليد والعين.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-target text-pink-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تطوير مهارات البصر والتركيز.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-smiley text-pink-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">تشجيع الأطفال على التعبير الفني.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Obstacles -->
+                        <div class="liquid-glass-card p-6 border-red-200 bg-red-50/30">
+                            <h4 class="text-xl font-bold text-red-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-warning-circle text-2xl"></i> معوقات تطبيق المبادرة
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-package text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">نقص المواد الفنية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-users-three text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">ضعف مشاركة بعض الأطفال.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-chalkboard-teacher text-red-500 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">الحاجة إلى تدريب المعلمات على الأنشطة الفنية.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proposals -->
+                        <div class="liquid-glass-card p-6 border-amber-200 bg-amber-50/30">
+                            <h4 class="text-xl font-bold text-amber-800 mb-6 flex items-center gap-2">
+                                <i class="ph-duotone ph-lightbulb text-2xl"></i> مقترحات تطويرية
+                            </h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-buildings text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">التعاون مع المراكز الفنية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-books text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">مشاركة المكتبات العامة في توفير مواد إبداعية.</p>
+                                </div>
+                                <div class="flex gap-3 items-start bg-white/50 p-4 rounded-xl border border-white/60">
+                                    <i class="ph-duotone ph-handshake text-amber-600 text-xl mt-1"></i>
+                                    <p class="text-slate-700 text-sm">دعم الشركات المهتمة بتنمية الطفولة.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
